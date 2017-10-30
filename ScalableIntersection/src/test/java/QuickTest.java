@@ -1,40 +1,31 @@
 import java.io.*;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class QuickTest {
     public static void main(String [] args) {
-        final String path = "C:/Users/dennis.koehn/Uni/DWH/testData/";
-        final String firstPath = path + "first/";
-        final String secondPath = path + "second/";
+        
+        final Path path = Paths.get("C:/Users/dennis.koehn/Uni/DWH/testData/");
+        final Path firstPath = path.resolve("first");
+        System.out.println(firstPath);
+        final Path secondPath = path.resolve("second");
         final int prefixSize = 2;
 
         try {
-            // partition both files
             Partitioner partitioner = new Partitioner();
-            partitioner.partitionFile(path + "test1.txt", firstPath, prefixSize);
-            partitioner.partitionFile(path +"test2.txt", secondPath, prefixSize);
 
-            // get all file names in "first" and "second" folder
-            List<String> firstFileList = partitioner.listFileNames(firstPath);
-            List<String> secondFileList = partitioner.listFileNames(secondPath);
+            // create folder for temporary partition files
+            partitioner.createPatitionFileFolder(firstPath);
+            partitioner.createPatitionFileFolder(secondPath);
 
-            // join partitions if filename matches
-            NaiveJoin joinMethod = new NaiveJoin();
-            SimpleWriter writer = new SimpleWriter();
-            SimpleReader reader = new SimpleReader();
+            // partition both files
+            partitioner.partitionFile(path.resolve("test1.txt"), firstPath, prefixSize);
+            partitioner.partitionFile(path.resolve("test2.txt"), secondPath, prefixSize);
 
-            for (String firstFileName : firstFileList){
-                for (String secondFileName : secondFileList) {
-                    if (firstFileName.equals(secondFileName)){
-                        Map<Long, Character> firstFile = reader.read(firstPath + firstFileName);
-                        Map<Long, Character> secondFile = reader.read(secondPath + secondFileName);
-                        Set<String> resultSet = joinMethod.join(firstFile, secondFile);
-                        writer.write(resultSet, path + "result.txt");
-                    }
-                }
-            }
+            Path resultPath = path.resolve("result.txt");
+            BlockedJoin join = new BlockedJoin();
+            join.blockJoin(firstPath,secondPath,resultPath);
+
         } catch (IOException e) {
             e.printStackTrace();
         }

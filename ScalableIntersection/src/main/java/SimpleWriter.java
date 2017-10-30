@@ -1,22 +1,24 @@
 import java.io.*;
+import java.nio.file.Path;
 import java.util.Set;
 
 public class SimpleWriter {
 
-    public void write(Set<String> resultSet, String filePath){
+    public void writeResult(Set<String> resultSet, Path filePath){
+        System.out.println("Start writing result into " + filePath + "...");
         try {
             for (String line : resultSet) {
                 writeNewOrExistitingFile(line, filePath);
+                System.out.println(filePath.toString());
             }
-            System.out.println("DONE");
         }
         catch(IOException ex) {
             ex.printStackTrace();
         }
     }
 
-    public void writeNewOrExistitingFile(String line, String filePath) throws IOException {
-        File file = new File(filePath);
+    public void writeNewOrExistitingFile(String line, Path filePath) throws IOException {
+        File file = new File(filePath.toString());
         if (!file.createNewFile()){
             writeIntoExistingFile(line,filePath);
         } else {
@@ -24,14 +26,14 @@ public class SimpleWriter {
         }
     }
 
-    public void writeIntoNewFile(String line, String filePath) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
+    public void writeIntoNewFile(String line, Path filePath) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath.toFile()));
         writer.write(line);
         writer.close();
     }
 
-    public void writeIntoExistingFile(String line, String filePath) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true));
+    public void writeIntoExistingFile(String line, Path filePath) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath.toFile(), true));
         writer.newLine();
         writer.write(line);
         writer.close();

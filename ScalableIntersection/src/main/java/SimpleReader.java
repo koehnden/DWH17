@@ -1,18 +1,20 @@
 import java.io.*;
+import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 
 public class SimpleReader {
 
-    public Map<Long, Character> read(String path) throws IOException {
+    public Map<Long, Character> read(Path path) throws IOException {
 
+        System.out.println("Start reading data from path: " + path + "...");
         String line = null;
         Map<Long, Character> result =
                 new HashMap<Long, Character>();
 
         try {
             BufferedReader bufferedReader = createBufferedReader(path);
-
+            System.out.println("BufferReader for has successfully opened the file");
             while ((line = bufferedReader.readLine()) != null) {
                 Long key = Long.parseLong(line.substring(1));
                 Character value = line.charAt(0);
@@ -27,9 +29,9 @@ public class SimpleReader {
         return result;
     }
 
-    public BufferedReader createBufferedReader(String path) throws IOException {
+    public BufferedReader createBufferedReader(Path path) throws IOException {
         FileReader fileReader =
-                new FileReader(path);
+                new FileReader(path.toFile());
         return new BufferedReader(fileReader);
     }
 }
