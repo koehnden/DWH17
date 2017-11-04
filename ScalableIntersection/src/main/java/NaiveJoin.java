@@ -13,9 +13,6 @@ public class NaiveJoin {
                 }
             }
         }
-        if (resultSet.isEmpty()){
-            // System.out.println("No matching keys");
-        }
         return resultSet;
     }
 }

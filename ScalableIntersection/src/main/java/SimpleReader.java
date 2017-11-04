@@ -6,7 +6,6 @@ import java.util.Map;
 public class SimpleReader {
 
     public Map<Long, Character> read(Path path) throws IOException {
-
         System.out.println("Start reading data from path: " + path + "...");
         String line = null;
         Map<Long, Character> result =
@@ -14,7 +13,6 @@ public class SimpleReader {
 
         try {
             BufferedReader bufferedReader = createBufferedReader(path);
-            System.out.println("BufferReader for has successfully opened the file");
             while ((line = bufferedReader.readLine()) != null) {
                 Long key = Long.parseLong(line.substring(1));
                 Character value = line.charAt(0);
