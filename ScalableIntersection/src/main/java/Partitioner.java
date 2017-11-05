@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Stream;
 
+//TODO: use StringBuilder
 public class Partitioner {
 
     public Map<String, BufferedWriter> partitionFile(Path inputPath, Path outputPath, int prefixSize) throws IOException {
@@ -23,8 +24,9 @@ public class Partitioner {
         while ((line = bufferedReader.readLine()) != null) {
             String hashKey = createHashKey(extractKey(line), prefixSize);
             Path filePath = outputPath.resolve(hashKey);
-            BufferedWriter currentWriter = writerMap.get(filePath.getFileName().toString() + ".txt");
-            currentWriter.write(line);
+            BufferedWriter currentWriter = getBufferedWriter(writerMap, filePath);
+            writerMap.remove(filePath);
+            currentWriter.write(createEntry(line,prefixSize));
             currentWriter.newLine();
         }
         System.out.println("[Info]" + inputPath + " was successfully partitioned into " + outputPath);
@@ -32,6 +34,14 @@ public class Partitioner {
         bufferedReader.close();
         closeAllWriters(writerMap);
         return writerMap;
+    }
+
+    private BufferedWriter getBufferedWriter(Map<String, BufferedWriter> writerMap, Path filePath){
+        StringBuilder builder = new StringBuilder();
+        String fileName = builder
+                .append(filePath.getFileName())
+                .toString();
+        return writerMap.get(fileName);
     }
 
     private String createHashKey(String key, int prefixSize){
@@ -42,14 +52,22 @@ public class Partitioner {
         return line.substring(1);
     }
 
+    private String createEntry(String line, int prefixSize){
+        StringBuilder builder = new StringBuilder(line);
+        String entry = builder
+                .delete(1,prefixSize)
+                .toString();
+        return entry;
+    }
+
+
     public Map<String, BufferedWriter> createPartitionFiles(Path path, int prefixSize) throws IOException{
         System.out.println("Create File for Partitions");
         Map<String, BufferedWriter> writerMap = new HashMap<String, BufferedWriter>();
         int fileInt = (int) Math.pow(10, prefixSize-1);
         int maxNumber = createMaxNumber(prefixSize);
         while(fileInt <= maxNumber){
-            String fileName = Integer.toString(fileInt) + ".txt";
-            //File tmpFile = File.createTempFile(filePath, "txt");
+            String fileName = Integer.toString(fileInt);
             File file = path.resolve(fileName).toFile();
             BufferedWriter newWriter = new BufferedWriter(new FileWriter(file));
             writerMap.put(fileName, newWriter);
@@ -71,13 +89,5 @@ public class Partitioner {
         for (String key : writerMap.keySet()){
             writerMap.get(key).close();
         }
-    }
-
-    public static List<Path> listFiles(Path path) throws IOException {
-        System.out.println("Listing all files!");
-        List<Path> files = new ArrayList<>();
-        Stream<Path> stream = Files.walk(path);
-        stream.forEach(files::add);
-        return files;
     }
 }

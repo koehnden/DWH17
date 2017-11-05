@@ -8,7 +8,9 @@ import java.util.Set;
 public class QuickTest {
 
     public static void main(String [] args) {
-        
+
+        long startTime = System.nanoTime();
+
         final Path path = Paths.get("C:/Users/dennis.koehn/Uni/DWH/testData/");
         final Path firstPath = path.resolve("first");
         final Path secondPath = path.resolve("second");
@@ -26,10 +28,13 @@ public class QuickTest {
             Set<String> secondFileSet = partitioner.partitionFile(path.resolve("test2.txt"), secondPath, prefixSize).keySet();
 
             BlockedJoin join = new BlockedJoin();
-            join.blockJoin(firstFileSet,secondFileSet,path);
+            join.blockJoin(firstFileSet,secondFileSet,path, prefixSize);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        long estimatedTime = System.nanoTime() - startTime;
+        System.out.println("Time to execute join: " + estimatedTime);
     }
 }

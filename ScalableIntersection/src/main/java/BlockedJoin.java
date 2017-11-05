@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class BlockedJoin extends NaiveJoin {
 
-    public void blockJoin(Set<String> firstFileList, Set<String> secondFileList, Path path) throws IOException {
+    public void blockJoin(Set<String> firstFileList, Set<String> secondFileList, Path path, int prefixSize) throws IOException {
 
         System.out.println("[Info] Start Blocked Join...");
         SimpleWriter writer = new SimpleWriter();
@@ -18,7 +18,7 @@ public class BlockedJoin extends NaiveJoin {
         Path secondPath = path.resolve("second");
 
         BufferedWriter resultWriter = writer.createBufferedWriter(path.resolve("result.txt"));
-
+        Set<String> resultSet = new HashSet<String>();
         for (String firstFileName : firstFileList){
             for (String secondFileName : secondFileList) {
                 if (firstFileName.equals(secondFileName)){
@@ -26,13 +26,13 @@ public class BlockedJoin extends NaiveJoin {
                     // create paths and read
                     Path firstFilePath = firstPath.resolve(firstFileName);
                     Path secondFilePath = secondPath.resolve(secondFileName);
-                    Map<Long, Character> firstFile = reader.read(firstFilePath);
-                    Map<Long, Character> secondFile = reader.read(secondFilePath);
+                    Map<String, Character> firstFile = reader.read(firstFilePath);
+                    Map<String, Character> secondFile = reader.read(secondFilePath);
                     // join and write result
-                    Set<String> resultSet = new HashSet<String>();
                     resultSet.addAll(join(firstFile, secondFile));
-                    writer.writeResult(resultSet, resultWriter);
+                    writer.writeResult(resultSet, firstFileName, prefixSize, resultWriter);
                     // delete files after join
+                    resultSet.clear();
                     cleanUp(firstFilePath,secondFilePath);
                 }
             }

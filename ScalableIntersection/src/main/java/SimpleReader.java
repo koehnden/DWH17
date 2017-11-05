@@ -5,31 +5,24 @@ import java.util.Map;
 
 public class SimpleReader {
 
-    public Map<Long, Character> read(Path path) throws IOException {
+    public Map<String, Character> read(Path path) throws IOException {
         System.out.println("Start reading data from path: " + path + "...");
         String line = null;
-        Map<Long, Character> result =
-                new HashMap<Long, Character>();
+        Map<String, Character> lineMap = new HashMap<String, Character>();
 
-        try {
-            BufferedReader bufferedReader = createBufferedReader(path);
-            while ((line = bufferedReader.readLine()) != null) {
-                Long key = Long.parseLong(line.substring(1));
-                Character value = line.charAt(0);
-                result.put(key,value);
-            }
-            bufferedReader.close();
-        } catch (FileNotFoundException ex) {
-            System.out.println("Unable to open file '" + path + "'");
-        } catch (IOException ex) {
-            ex.printStackTrace();
+        BufferedReader bufferedReader = createBufferedReader(path);
+        while ((line = bufferedReader.readLine()) != null) {
+            String key = line.substring(1);
+            Character value = line.charAt(0);
+            lineMap.put(key,value);
         }
-        return result;
+        bufferedReader.close();
+        return lineMap;
     }
 
+
     public BufferedReader createBufferedReader(Path path) throws IOException {
-        FileReader fileReader =
-                new FileReader(path.toFile());
+        FileReader fileReader = new FileReader(path.toFile());
         return new BufferedReader(fileReader);
     }
 }

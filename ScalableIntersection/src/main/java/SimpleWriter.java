@@ -4,11 +4,22 @@ import java.util.Set;
 
 public class SimpleWriter {
 
-    public void writeResult(Set<String> resultSet, BufferedWriter resultWriter) throws IOException{
+    public void writeResult(Set<String> resultSet, String fileName, int prefixSize, BufferedWriter resultWriter) throws IOException {
         for (String line : resultSet) {
-            resultWriter.write(line);
+            String convertedResult = convertResult(line,fileName, prefixSize);
+            resultWriter.write(convertedResult);
             resultWriter.newLine();
         }
+    }
+
+    private String convertResult(String line, String fileName, int prefixSize){
+        StringBuilder builder = new StringBuilder();
+        String result = builder
+                .append(line.charAt(0))
+                .append(fileName)
+                .append(line.substring(prefixSize))
+                .toString();
+        return result;
     }
 
     public BufferedWriter createBufferedWriter(Path path) throws IOException {
