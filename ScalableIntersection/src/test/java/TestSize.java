@@ -8,6 +8,7 @@ public class TestSize {
     public static void main(String [] args) {
 
         final Path path = Paths.get("C:/Users/dennis.koehn/Uni/DWH/files/");
+        int prefixSize = 3;
 
         // check if result is correct
         SimpleReader resultReader = new SimpleReader();

@@ -55,7 +55,7 @@ public class Partitioner {
     private String createEntry(String line, int prefixSize){
         StringBuilder builder = new StringBuilder(line);
         String entry = builder
-                .delete(1,prefixSize)
+                .delete(1,prefixSize+1)
                 .toString();
         return entry;
     }

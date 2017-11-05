@@ -17,7 +17,7 @@ public class SimpleWriter {
         String result = builder
                 .append(line.charAt(0))
                 .append(fileName)
-                .append(line.substring(prefixSize))
+                .append(line.substring(1))
                 .toString();
         return result;
     }
