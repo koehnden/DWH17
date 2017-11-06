@@ -12,6 +12,6 @@ public class SimpleWriter {
     }
 
     public BufferedWriter createBufferedWriter(Path path) throws IOException {
-        return new BufferedWriter(new FileWriter(path.toFile(), true));
+        return new BufferedWriter(new FileWriter(path.toFile(), true),100000);
     }
 }
