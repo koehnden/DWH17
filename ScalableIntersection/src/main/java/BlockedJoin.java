@@ -26,8 +26,8 @@ public class BlockedJoin extends NaiveJoin {
                     // create paths and read
                     Path firstFilePath = firstPath.resolve(firstFileName);
                     Path secondFilePath = secondPath.resolve(secondFileName);
-                    Map<String, Character> firstFile = reader.read(firstFilePath);
-                    Map<String, Character> secondFile = reader.read(secondFilePath);
+                    Map<Integer, Character> firstFile = reader.read(firstFilePath);
+                    Map<Integer, Character> secondFile = reader.read(secondFilePath);
                     // join and write result
                     resultSet.addAll(join(firstFile, secondFile));
                     writer.writeResult(resultSet, firstFileName, prefixSize, resultWriter);

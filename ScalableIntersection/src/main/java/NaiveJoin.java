@@ -2,13 +2,16 @@ import java.util.*;
 
 public class NaiveJoin {
 
-    public Set<String> join(Map<String, Character> firstFile, Map<String, Character> secondFile) {
-        Set<String> resultSet = new HashSet<String>();
+    // TODO: potenzieller Bug hier
+    public Set<String> join(Map<Integer, Character> firstFile, Map<Integer, Character> secondFile) {
+        Set<String> resultSet = new HashSet<>();
         System.out.println("Start Joining Files...");
-        for (String firstKey : firstFile.keySet()) {
+        for (int firstKey : firstFile.keySet()) {
             if (secondFile.containsKey(firstKey)) {
-                resultSet.add(firstFile.get(firstKey) + firstKey);
-                resultSet.add(secondFile.get(firstKey) + firstKey);
+                String stringKey = Integer.toString(firstKey);
+
+                resultSet.add(firstFile.get(firstKey) + stringKey);
+                resultSet.add(secondFile.get(firstKey) + stringKey);
             }
         }
         return resultSet;
