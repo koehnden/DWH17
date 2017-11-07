@@ -21,22 +21,19 @@ public class BlockedJoin extends NaiveJoin {
         BufferedWriter resultWriter = writer.createBufferedWriter(path.resolve("result.txt"));
         Set<String> resultSet = new HashSet<String>();
         for (String firstFileName : firstFileList){
-            for (String secondFileName : secondFileList) {
-                if (firstFileName.equals(secondFileName)){
-                    System.out.println(firstFileName + " second: " + secondFileName );
-                    // create paths and read
-                    Path firstFilePath = firstPath.resolve(firstFileName);
-                    Path secondFilePath = secondPath.resolve(firstFileName);
-                    Map<Integer, List<Character>> firstFile = reader.read(firstFilePath);
-                    Map<Integer, List<Character>> secondFile = reader.read(secondFilePath);
-                    // join and write result
-                    resultSet.addAll(join(firstFile, secondFile));
-                    writer.writeResult(resultSet, firstFileName, prefixSize, resultWriter);
-                    // delete files after join
-                    resultSet.clear();
-                    cleanUp(firstFilePath,secondFilePath);
-                }
-            }
+        	// create paths and read
+        	if(secondFileList.contains(firstFileName) == false) continue;
+        	
+        	Path firstFilePath = firstPath.resolve(firstFileName);
+        	Path secondFilePath = secondPath.resolve(firstFileName);
+        	Map<Integer, List<Character>> firstFile = reader.read(firstFilePath);
+        	Map<Integer, List<Character>> secondFile = reader.read(secondFilePath);
+        	// join and write result
+        	resultSet.addAll(join(firstFile, secondFile));
+        	writer.writeResult(resultSet, firstFileName, prefixSize, resultWriter);
+        	// delete files after join
+        	resultSet.clear();
+        	cleanUp(firstFilePath,secondFilePath);
         }
         System.out.println("[Info] Closing Result Writer...");
         resultWriter.close();
