@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -25,9 +26,9 @@ public class BlockedJoin extends NaiveJoin {
                     System.out.println(firstFileName + " second: " + secondFileName );
                     // create paths and read
                     Path firstFilePath = firstPath.resolve(firstFileName);
-                    Path secondFilePath = secondPath.resolve(secondFileName);
-                    Map<Integer, Character> firstFile = reader.read(firstFilePath);
-                    Map<Integer, Character> secondFile = reader.read(secondFilePath);
+                    Path secondFilePath = secondPath.resolve(firstFileName);
+                    Map<Integer, List<Character>> firstFile = reader.read(firstFilePath);
+                    Map<Integer, List<Character>> secondFile = reader.read(secondFilePath);
                     // join and write result
                     resultSet.addAll(join(firstFile, secondFile));
                     writer.writeResult(resultSet, firstFileName, prefixSize, resultWriter);

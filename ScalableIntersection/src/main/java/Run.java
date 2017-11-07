@@ -17,7 +17,7 @@ public class Run {
 
         long startTime = currentTimeMillis();
 
-        final Path path = Paths.get("C:/Users/dennis.koehn/Uni/DWH/files/");
+        final Path path = Paths.get("C:/Users/Malte/Desktop");
         final Path firstPath = path.resolve("first");
         final Path secondPath = path.resolve("second");
         final int prefixSize = 3;  // only prefixSize that does not exceed 100mb heap size
@@ -30,9 +30,9 @@ public class Run {
             partitioner.createPartitionFileFolder(secondPath);
 
             // partition both files
-            Set<String> firstFileSet = partitioner.partitionFile(path.resolve("file1.txt"), firstPath, prefixSize).keySet();
-            Set<String> secondFileSet = partitioner.partitionFile(path.resolve("file2.txt"), secondPath, prefixSize).keySet();
-
+            Set<String> firstFileSet = partitioner.partitionFile(path.resolve("file1").resolve("file1.txt"), firstPath, prefixSize).keySet();
+            Set<String> secondFileSet = partitioner.partitionFile(path.resolve("file2").resolve("file2.txt"), secondPath, prefixSize).keySet();
+            
             BlockedJoin join = new BlockedJoin();
             join.blockJoin(firstFileSet,secondFileSet,path,prefixSize);
 
