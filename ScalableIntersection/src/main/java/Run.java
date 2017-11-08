@@ -16,10 +16,12 @@ public class Run {
     public static void main(String [] args) {
 
         long startTime = currentTimeMillis();
-
-        final Path path = Paths.get("C:/Users/Malte/Desktop");
-        final Path firstPath = path.resolve("first");
-        final Path secondPath = path.resolve("second");
+        
+        final Path firstInputFilePath = Paths.get(args[0]);
+        final Path secondInputFilePath = Paths.get(args[1]) ;
+        final Path destPath = Paths.get(args[2]);
+        final Path firstPath = destPath.resolve("first");
+        final Path secondPath = destPath.resolve("second");
         final int prefixSize = 3;  // only prefixSize that does not exceed 100mb heap size
 
         try {
@@ -30,11 +32,11 @@ public class Run {
             partitioner.createPartitionFileFolder(secondPath);
 
             // partition both files
-            Set<String> firstFileSet = partitioner.partitionFile(path.resolve("file1").resolve("file1.txt"), firstPath, prefixSize).keySet();
-            Set<String> secondFileSet = partitioner.partitionFile(path.resolve("file2").resolve("file2.txt"), secondPath, prefixSize).keySet();
+            Set<String> firstFileSet = partitioner.partitionFile(firstInputFilePath.resolve("file1.txt"), firstPath, prefixSize).keySet();
+            Set<String> secondFileSet = partitioner.partitionFile(secondInputFilePath.resolve("file2.txt"), secondPath, prefixSize).keySet();
             
             BlockedJoin join = new BlockedJoin();
-            join.blockJoin(firstFileSet,secondFileSet,path,prefixSize);
+            join.blockJoin(firstFileSet,secondFileSet,destPath,prefixSize);
 
         } catch (IOException e) {
             e.printStackTrace();
