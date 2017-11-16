@@ -1,8 +1,6 @@
 import java.io.IOException;
 import java.sql.*;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class InsertEmployeeList {
 
@@ -63,7 +61,7 @@ public class InsertEmployeeList {
                 .append("raum VARCHAR2(20), ")
                 .append("email VARCHAR2(50) NOT NULL, ")
                 .append("telefon VARCHAR2(20), ")
-                .append("webseite VARCHAR2(100), ")
+                .append("webseite VARCHAR2(150), ")
                 .append("CONSTRAINT mitarbeiter_pk PRIMARY KEY (email)")
                 .append(")")
                 .toString();

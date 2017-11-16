@@ -7,7 +7,7 @@ public class OracleConnector {
     final private static String HOST = "@alibaba.informatik.hu-berlin.de";
     final private static String PORT = "1521";
     final private static String USERNAME = "OracleB";
-    final private static String PASSWORD = "xxxxx";
+    final private static String PASSWORD = "Raevaagh";
 
 
     public Connection getOracleConnection() throws SQLException {
