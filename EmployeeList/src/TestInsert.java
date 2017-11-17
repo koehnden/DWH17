@@ -11,11 +11,9 @@ public class TestInsert {
         try{
             Connection con = connector.getOracleConnection();
             ResultSet rs = selectData(con);
-
-            System.out.println(rs.next());
+            System.out.println("Has entries? " + rs.next());
             while(rs.next()){
                 System.out.println(rs.getMetaData());
-
                 String email = rs.getString("email");
                 System.out.println(email);
             }
@@ -28,7 +26,7 @@ public class TestInsert {
 
 
     private static ResultSet selectData(Connection con) throws SQLException{
-        String query = "SELECT * FROM mitarbeiter";
+        String query = "SELECT email FROM mitarbeiter";
         Statement stmt = null;
         ResultSet rs = null;
 

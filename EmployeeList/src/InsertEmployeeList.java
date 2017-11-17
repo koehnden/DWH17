@@ -15,8 +15,8 @@ public class InsertEmployeeList {
             con = connector.getOracleConnection();
             dropTable(con);
             createEmployeeTable(con);
-            List<String[]> employeeList = CSVReader.readCsv(csvPath);
-            insertEmployees(employeeList, con);
+            Map<String, String[]> employeeMap = CSVReader.readCsv(csvPath);
+            insertEmployees(employeeMap, con);
         } catch (IOException ex){
             ex.printStackTrace();
 
@@ -26,7 +26,7 @@ public class InsertEmployeeList {
     }
 
 
-    private static void insertEmployees(List<String[]> employeeList, Connection con) throws SQLException {
+    private static void insertEmployees(Map<String,String[]> employeeMap, Connection con) throws SQLException {
 
         String sqlStmt = new StringBuilder("INSERT INTO mitarbeiter")
                 .append(" (titel, vorname, nachname, lehrstuhl, raum, email, telefon, webseite) ")
@@ -38,15 +38,15 @@ public class InsertEmployeeList {
         PreparedStatement insertEmployee = con.prepareStatement(sqlStmt);
         System.out.println("Fire Query: " + sqlStmt);
 
-        Iterator<String[]> iter = employeeList.iterator();
-        while(iter.hasNext()){
-            String[] employee = iter.next();
-            System.out.println("insert employee: " + employee[5]);
+        for(String key : employeeMap.keySet()){
+            String[] employee = employeeMap.get(key);
+            System.out.println("insert employee: " + key.toString());
             for (int i = 1; i <= employee.length; i++){
                 insertEmployee.setString(i,employee[i-1]);
             }
-            insertEmployee.executeUpdate();
+            insertEmployee.addBatch();
         }
+        insertEmployee.executeBatch();
         insertEmployee.close();
         System.out.println("All tuples successfully inserted");
         con.close();
