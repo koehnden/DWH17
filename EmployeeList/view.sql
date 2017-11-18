@@ -32,4 +32,8 @@ WHERE M.raum = RT.raum AND M.telefon NOT IN (
         FROM teilt_rufnummer)
 ORDER BY M.raum;
 
--- TODO: PL/SQL function schreiben und das 5. lösen
+-- 4 Personalkosten pro Abteilung/Lehrstuhl
+create or replace view kosten_abteilung as select nvl(LEHRSTUHL, 'Nicht zuordenbar') as Abteilung, TO_CHAR(sum(CALCULATE_SALARY(email)) , '99G999G999G9999', 'NLS_NUMERIC_CHARACTERS=".,"')as PERSONALKOSTEN
+from mitarbeiter 
+group by LEHRSTUHL order by PERSONALKOSTEN desc 
+
