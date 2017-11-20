@@ -40,7 +40,7 @@ public class InsertEmployeeList {
 
         for(String key : employeeMap.keySet()){
             String[] employee = employeeMap.get(key);
-            System.out.println("insert employee: " + key.toString());
+            //System.out.println("insert employee: " + key.toString());
             for (int i = 1; i <= employee.length; i++){
                 insertEmployee.setString(i,employee[i-1]);
             }

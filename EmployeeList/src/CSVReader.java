@@ -16,6 +16,8 @@ public class CSVReader {
             String key = employee[5];
             if (key.isEmpty()) continue;
             employee[4] = convertRooms(employee[4]);
+            employee[6] = convertTel(employee[6]);
+            System.out.println(employee[6]);
             employeeMap.put(key,employee);
         }
         br.close();
@@ -30,5 +32,17 @@ public class CSVReader {
             formattedRoom = room;
         }
         return formattedRoom;
+    }
+
+    private static String convertTel(String tel) {
+        String fromattedTel = tel;
+        String prefixNumber = "(030)2093-";
+        if (tel.contains("2093")) {
+            String split[] = tel.split("-");
+            if (split.length == 2) return prefixNumber + tel.split("-")[1];
+            else return tel;
+        } else {
+            return tel;
+        }
     }
 }
