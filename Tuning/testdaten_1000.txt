@@ -1,0 +1,1002 @@
+ID;NAME;VORNAME;GEBURTSDATUM;ADRESSE;WOHNORT;PLZ;BUNDESLAND;VATERID;MUTTERID
+0;Heuer;Tilman;1920-10-17;Voßweg 70;Kaub;56349;Rheinland-Pfalz;NULL;NULL
+1;Weinhold;Galina;1921-7-2;Pfarrer-Schneider-Straße 100;Remscheid;42853;Nordrhein-Westfalen;NULL;NULL
+2;Radermacher;Dietwalt;1921-11-2;Fiedlerstraße 90;Marktleuthen;95168;Bayern;NULL;NULL
+3;Dittmann;Hasso;1916-12-17;Guntherstr. 58;Schönberg;22929;Mecklenburg-Vorpommern;NULL;NULL
+4;Kögler;Mary;1918-1-24;Brönnerstraße 87;Stuttgart;70190;Baden-Württemberg;NULL;NULL
+5;Kracht;Steffen;1918-10-26;Nelkenstraße 88;Grevenbroich;41517;Nordrhein-Westfalen;NULL;NULL
+6;Buß;Melita;1921-1-2;Stendaler Straße 60;Manderscheid;54531;Rheinland-Pfalz;NULL;NULL
+7;Scheer;Felizitas;1920-3-18;Launhardtstraße 33;Plauen;08523;Sachsen;NULL;NULL
+8;Graßl;Meta;1920-1-28;Hellerstr. 58;Wirges;56422;Rheinland-Pfalz;NULL;NULL
+9;Burkhart;Auguste;1915-5-24;Am Hirtenacker 100;Ichenhausen;89335;Bayern;NULL;NULL
+10;Bluhm;Heidegret;1918-8-29;Kneiselmühle 89;Berlin;12557;Berlin;NULL;NULL
+11;Bohm;Alwine;1914-5-1;Laufkötterweg 98b;Peitz;03185;Brandenburg;NULL;NULL
+12;Siepmann;Lucia;1914-6-16;Schlinkenweg 47;Hückeswagen;42499;Nordrhein-Westfalen;NULL;NULL
+13;Strasser;Neithard;1918-1-17;Moränenende 41;Kelbra;06537;Sachsen-Anhalt;NULL;NULL
+14;Heide;Adolph;1915-10-12;Richard-Bernhardt-Weg 34;Oer-Erkenschwick;45739;Nordrhein-Westfalen;NULL;NULL
+15;Leder;Katherina;1917-7-1;Langenzugbrücke 33;München;80689;Bayern;NULL;NULL
+16;Keitel;Edelfried;1917-6-29;Ooser Gartenstraße 1;Soltau;29614;Niedersachsen;NULL;NULL
+17;Krone;Christine;1915-10-3;Kronthaler Straße 51;Kaiserslautern;67663;Rheinland-Pfalz;NULL;NULL
+18;Brendel;Sigtrud;1919-9-14;Lippersdorfer Weg 49;Düsseldorf;40625;Nordrhein-Westfalen;NULL;NULL
+19;Harder;Hagen;1922-2-19;Oberhafenbrücke 100b;Wertingen;86637;Bayern;NULL;NULL
+20;Cordes;Herwarth;1918-3-10;Messerschmittstr. 21;Wolfstein;67752;Rheinland-Pfalz;NULL;NULL
+21;Prüfer;Kersten;1921-4-10;Rendeler Straße 4;Montabaur;56410;Rheinland-Pfalz;NULL;NULL
+22;Mühlberger;Kriemhilde;1915-8-13;Mittlerer Kaulberg 64b;Essen;45145;Nordrhein-Westfalen;NULL;NULL
+23;Hintze;Friedrich;1918-12-18;Adam-Senger-Str. 30;Köln;51063;Nordrhein-Westfalen;NULL;NULL
+24;Gohlke;Wigand;1920-5-20;Goetheallee 4;Windischeschenbach;92670;Bayern;NULL;NULL
+25;Kirch;Hartmund;1916-5-1;Bernhardstraße 21;Wittenburg;19243;Mecklenburg-Vorpommern;NULL;NULL
+26;Goller;Liesbeth;1923-7-4;Marienberger Straße 68;Halle;06126;Nordrhein-Westfalen;NULL;NULL
+27;Bergner;Harald;1916-3-12;Rütlistraße 63;Eisfeld;98673;Thüringen;NULL;NULL
+28;Kappes;Herwald;1914-7-10;Schranne 28;Herten;45699;Nordrhein-Westfalen;NULL;NULL
+29;Holzinger;Leberecht;1919-6-4;Landseestraße 48;Ebersbach;04720;Sachsen;NULL;NULL
+30;Kilian;Leonie;1923-1-30;Gräfstraße 74;Waltershausen;99880;Thüringen;NULL;NULL
+31;Fisch;Gefion;1919-6-3;Barlachstraße 74;Mannheim;68309;Baden-Württemberg;NULL;NULL
+32;Ahlers;Ewa;1919-7-18;Max-Eyth-Straße 95;Gengenbach;77723;Baden-Württemberg;NULL;NULL
+33;Ehrhardt;Susann;1919-7-15;Walther-von-Cronberg-Platz 9a;Kaufbeuren;87600;Bayern;NULL;NULL
+34;Bickel;Balthasar;1916-10-28;Homolkaweg 25b;Aurich;26605;Niedersachsen;NULL;NULL
+35;Weinmann;Cordt;1919-2-27;Tribünenweg 10a;Ibbenbüren;49479;Nordrhein-Westfalen;NULL;NULL
+36;Böhler;Swantje;1922-7-4;Schröderstraße 26;Lüchow;23898;Niedersachsen;NULL;NULL
+37;Fix;Ruthard;1915-3-15;Arthur-Weineck-Straße 73;Naunhof;04683;Sachsen;NULL;NULL
+38;Nitsche;Agata;1915-12-7;Endorfer Str. 42c;Nördlingen;86720;Bayern;NULL;NULL
+39;Schaefer;Catherina;1917-3-9;Augustinstraße 78;Dortmund;44137;Nordrhein-Westfalen;NULL;NULL
+40;Mau;Miroslawa;1914-4-20;Schwindstraße 66;Gelsenkirchen;45883;Nordrhein-Westfalen;NULL;NULL
+41;Heuer;Hilarius;1920-8-19;Spadenteich 31c;Bürgel;07616;Thüringen;NULL;NULL
+42;Reinecke;Matthias;1918-12-15;Westerwaldstraße, Sossenheim 10;Hamm;59073;Nordrhein-Westfalen;NULL;NULL
+43;Kunzmann;Priska;1923-5-29;Dr.-Robert-Pfleger-Str. 84;Itzehoe;25524;Schleswig-Holstein;NULL;NULL
+44;Reder;Lisl;1914-7-1;Schmiedeberger Straße 31c;Freudenberg;97896;Baden-Württemberg;NULL;NULL
+45;Blankenburg;Urta;1916-1-30;Bärwalder Straße 38a;Elbingerode;38875;Sachsen-Anhalt;NULL;NULL
+46;Burk;Magarete;1918-9-22;Am Lehmhaus 5;Halle;49843;Nordrhein-Westfalen;NULL;NULL
+47;Thieme;Leonhardt;1918-6-1;Schedlichstraße 68;Kiel;24145;Schleswig-Holstein;NULL;NULL
+48;Schopf;Alice;1914-4-10;Holzdamm 95;Titisee-Neustadt;79822;Baden-Württemberg;NULL;NULL
+49;Schöbel;Hildegard;1915-7-12;Bruderhofstraße 88;Krefeld;47829;Nordrhein-Westfalen;NULL;NULL
+50;Reichel;Benedikta;1922-11-9;Böschenweg 46b;Ilmenau;98693;Thüringen;NULL;NULL
+51;Hunger;Francoise;1916-7-27;Andreas-Hofer-Straße 14;Moers;47445;Nordrhein-Westfalen;NULL;NULL
+52;Armbruster;Corinne;1917-10-8;Weißiger Weg 47;Kroppenstedt;39397;Sachsen-Anhalt;NULL;NULL
+53;Pollmann;Christophorus;1915-10-18;Am Hermsberg 86a;Arnsberg;59759;Nordrhein-Westfalen;NULL;NULL
+54;Fromme;Milica;1914-9-13;Kleine Dollenstraße 30;Rehna;19217;Mecklenburg-Vorpommern;NULL;NULL
+55;Augustin;Notburg;1914-2-12;Motzstraße 36;Stuttgart;70199;Baden-Württemberg;NULL;NULL
+56;Rösch;Heltrud;1923-10-27;Steinadlerstraße 93;Genthin;39307;Sachsen-Anhalt;NULL;NULL
+57;Ganz;Wilmar;1920-12-29;Bauerbergweg 92;Hallstadt;96103;Bayern;NULL;NULL
+58;Rusch;Gila;1920-12-26;Auersreihe 9;Sonnewalde;03249;Brandenburg;NULL;NULL
+59;Jankowski;Doritta;1914-12-1;Max-Liebermann-Straße 24c;Gerolstein;54568;Rheinland-Pfalz;NULL;NULL
+60;Lorenzen;Tilo;1914-3-26;E.T.A.-Hoffmann-Str. 84;Sachsenhagen;31553;Niedersachsen;NULL;NULL
+61;Schaller;Julian;1919-12-28;Georg-Blume-Straße 32;Hamburg;22041;Hamburg;NULL;NULL
+62;Weidmann;Frieder;1922-12-24;Dringsheide 65b;Dommitzsch;04880;Sachsen;NULL;NULL
+63;Dewald;Adelbert;1917-12-30;Wüllnerstraße 4;Bockenem;31167;Niedersachsen;NULL;NULL
+64;Moritz;Sidonie;1921-11-30;Ahorngasse 38;Wolframs-Eschenbach;91639;Bayern;NULL;NULL
+65;Seidler;Rudolfina;1919-3-15;Hedderichstraße 84;Trier;54290;Rheinland-Pfalz;NULL;NULL
+66;Blanke;Gritta;1915-10-31;Bregenzer Straße 30;Halle;06108;Nordrhein-Westfalen;NULL;NULL
+67;Reichart;Utz;1916-11-12;Gubener Straße 23;Angermünde;16278;Brandenburg;NULL;NULL
+68;Sonntag;Erno;1916-1-27;Franz-Liszt-Gasse 27;Bochum;44879;Nordrhein-Westfalen;NULL;NULL
+69;Oberländer;Steven;1921-12-24;Hugo-Junkers-Straße 30;Ueckermünde;17373;Mecklenburg-Vorpommern;NULL;NULL
+70;Riemann;Engelhardt;1923-3-11;Karl Varits-Gasse 52;Solingen;42655;Nordrhein-Westfalen;NULL;NULL
+71;Burkart;Torben;1915-1-20;Landseestraße 48;Neuwied;56567;Rheinland-Pfalz;NULL;NULL
+72;Schwenk;Annelen;1916-4-15;Ferdinand-Scholling-Ring 91;Hornberg;78132;Baden-Württemberg;NULL;NULL
+73;Goldberg;Ehrhard;1917-12-23;Ludwig-Ermold-Straße 14b;Kölleda;99625;Thüringen;NULL;NULL
+74;Rummel;Wilhard;1914-2-11;Rugierstraße 37;Berlin;10629;Berlin;NULL;NULL
+75;Ehlert;Carla;1921-9-5;Artur-Landgraf-Str. 76;Osnabrück;49080;Niedersachsen;NULL;NULL
+76;John;Nikolaus;1914-7-27;An der Staufenmauer 99;Köln;50679;Nordrhein-Westfalen;NULL;NULL
+77;Habel;Balthasar;1921-6-5;Liegauer Straße 91;Flensburg;24941;Schleswig-Holstein;NULL;NULL
+78;Pecher;Deborah;1919-8-15;Feldkirchner Weg 30;Hamburg;22417;Hamburg;NULL;NULL
+79;Zielinski;Germo;1923-9-24;Hebebrandstraße 53;Lengerich;49838;Nordrhein-Westfalen;NULL;NULL
+80;Schier;Rotraud;1919-3-13;Starkenfeldstr. 28;Lüdenscheid;58513;Nordrhein-Westfalen;NULL;NULL
+81;Rau;Irmingard;1916-12-1;Stiller Winkel 80a;Berlin;12351;Berlin;NULL;NULL
+82;Kremser;Ilsedore;1919-3-22;Heinrich-Mann-Straße 3;Sangerhausen;06526;Sachsen-Anhalt;NULL;NULL
+83;Reisch;Ilsegard;1923-5-3;An der Herrenwiese 14a;Kiel;24148;Schleswig-Holstein;NULL;NULL
+84;Engler;Ottkar;1923-3-20;Niederschleems 29b;Meßkirch;88605;Baden-Württemberg;NULL;NULL
+85;Klement;Wilbert;1918-12-31;Geibelstraße 27;Berlin;14089;Berlin;NULL;NULL
+86;Stehle;Karlgeorg;1922-3-12;Auf dem Knüll 49a;Nordhorn;48527;Niedersachsen;NULL;NULL
+87;Grünberg;Anneli;1918-6-3;Weinleite 46;Wehr;56653;Baden-Württemberg;NULL;NULL
+88;Göller;Engelhard;1920-8-20;Schenckstraße 19;Solms;35606;Hessen;NULL;NULL
+89;Rosenthal;Larissa;1918-8-18;Krötleinstr. 73;Stuttgart;70176;Baden-Württemberg;NULL;NULL
+90;Steuer;Werngard;1921-11-30;Grauener Weg 50;Vetschau;03226;Brandenburg;NULL;NULL
+91;Teubner;Gabriele;1916-10-14;Max-Bock-Straße 31;Eschweiler;52249;Nordrhein-Westfalen;NULL;NULL
+92;Schatz;Reinhold;1914-11-26;Feuerhausstraße 32;Brüssow;17326;Brandenburg;NULL;NULL
+93;Pötzsch;Jolanta;1916-3-31;Genslerweg 75;Liebenwalde;16559;Brandenburg;NULL;NULL
+94;Boy;Annemaria;1920-4-22;Emilienstraße 3;Schiltach;77761;Baden-Württemberg;NULL;NULL
+95;Schnitzer;Margaret;1916-6-21;Mühlangergasse 56a;Leverkusen;51375;Nordrhein-Westfalen;NULL;NULL
+96;Gabel;Sonnhilde;1919-7-29;Wurzener Straße 92;Hamburg;22337;Hamburg;NULL;NULL
+97;Janson;Folkhardt;1921-7-12;Schwarzenbergstr. 3c;Halle;06122;Nordrhein-Westfalen;NULL;NULL
+98;Raddatz;Gülsen;1918-3-13;Sonnenhalde 64;Schönsee;92539;Bayern;NULL;NULL
+99;Pausch;Diethild;1918-8-10;Lauensteinstr. 23;Bochum;44809;Nordrhein-Westfalen;NULL;NULL
+100;Uhlmann;Frieda;1927-8-27;An der Herzogin Garten 67;Wasungen;98634;Thüringen;NULL;NULL
+101;Exner;Hatto;1931-8-29;Weidenauer Straße 62;Berlin;12045;Berlin;NULL;NULL
+102;Dräger;Leonhardt;1932-9-27;Kroatengasse 41;Krefeld;47799;Nordrhein-Westfalen;NULL;NULL
+103;Brandstetter;Pius;1925-4-12;Gauweg 66;Brakel;33034;Nordrhein-Westfalen;NULL;NULL
+104;Schwager;Kathrein;1932-11-3;Carl-Heicke-Weg 31;Rodalben;66976;Rheinland-Pfalz;NULL;NULL
+105;Schöttler;Maximillian;1930-7-6;Zweite Heidenkampbrücke 84;Essen;45289;Nordrhein-Westfalen;NULL;NULL
+106;Riedl;Henning;1932-10-4;Beskidenstraße 30;Aalen;73431;Baden-Württemberg;NULL;NULL
+107;Fleischhauer;Georgia;1923-7-14;Uhlandstraße 78a;Stuttgart;70629;Baden-Württemberg;NULL;NULL
+108;Haack;Loretta;1931-12-16;Ödenburger Straße 19;Schönsee;92539;Bayern;NULL;NULL
+109;Maurer;Horstmar;1928-5-6;Hohlweg 86;Berlin;12163;Berlin;NULL;NULL
+110;Scheibe;Arwid;1929-7-11;Ludwigshafener Straße 42;Zwiesel;94227;Bayern;NULL;NULL
+111;Braune;Lona;1929-7-13;Bickenbacher Weg 78;Stadtoldendorf;37627;Niedersachsen;NULL;NULL
+112;Moser;Volrad;1925-9-28;Wigardstraße 18;Reichenbach;96358;Sachsen;NULL;NULL
+113;Plöger;Lerke;1927-12-8;Huthmacherstraße 63;Wittmund;26409;Niedersachsen;NULL;NULL
+114;Danner;Louis;1926-11-28;Kuhnsweg 12a;Gößnitz;04639;Thüringen;NULL;NULL
+115;Böhner;Burglind;1924-12-21;Sandplackenstraße 10;Köln;50825;Nordrhein-Westfalen;NULL;NULL
+116;Werner;Simone;1923-5-12;Petrinistr. 83;Kempen;47906;Nordrhein-Westfalen;NULL;NULL
+117;Bretschneider;Freddy;1932-5-2;Norderhof 100c;Iserlohn;58642;Nordrhein-Westfalen;NULL;NULL
+118;Werth;Benedikta;1925-1-27;Margarete und Fritz-Kahl-Anlage 77a;Neuss;41468;Nordrhein-Westfalen;NULL;NULL
+119;Stemmer;Emmerich;1927-11-15;Kaufbacher Weg 93c;Todtnau;79674;Baden-Württemberg;NULL;NULL
+120;Steger;Wilhardt;1929-7-16;Mommsenstraße 65;Mannheim;68169;Baden-Württemberg;NULL;NULL
+121;Reiners;Hildebrand;1932-3-7;Kreuzerhohl 97;Freren;49832;Niedersachsen;NULL;NULL
+122;Raith;Friedburg;1929-9-15;Mittelsteg 35b;Kiel;24146;Schleswig-Holstein;NULL;NULL
+123;Mock;Beatrice;1927-10-8;Sutte 79;Melsungen;34212;Hessen;NULL;NULL
+124;Reiss;Dagobert;1932-1-24;Pusztawohnpark 99;Fulda;36043;Hessen;NULL;NULL
+125;Grunewald;Elfgard;1931-5-21;Schreivoglstr. 13;Hohenleuben;07958;Thüringen;NULL;NULL
+126;Maaßen;Katarzyna;1930-4-1;Maßholderpfad 5b;Wiesbaden;65199;Hessen;NULL;NULL
+127;Neumeister;Burkard;1925-11-22;Bottenhorner Weg 74;Magdeburg;39106;Sachsen-Anhalt;NULL;NULL
+128;Bußmann;Krimhilde;1923-6-13;Theodor-Storm-Straße 5c;Essen;45289;Nordrhein-Westfalen;NULL;NULL
+129;Reichenbach;Wolf;1927-10-16;Am Heidehof 9;Kirchberg;08107;Rheinland-Pfalz;NULL;NULL
+130;Hering;Christophorus;1928-5-6;Am Dorfteich 12;Mansfeld;06343;Sachsen-Anhalt;NULL;NULL
+131;Völker;Stephanus;1931-3-14;Am Mittelkanal 85c;Pfullingen;72793;Baden-Württemberg;NULL;NULL
+132;Berthold;Arntraud;1930-7-21;Benzstraße 36;Düsseldorf;40231;Nordrhein-Westfalen;NULL;NULL
+133;Engelhardt;Sidonie;1932-10-26;Schelsstraße 89;Kahla;04928;Thüringen;NULL;NULL
+134;Hahne;Arnbert;1925-3-24;Hermann-Reichelt-Straße 90;Heidelberg;69124;Baden-Württemberg;NULL;NULL
+135;Kindermann;Margunde;1932-12-5;Oberlindau 66;Kaub;56349;Rheinland-Pfalz;NULL;NULL
+136;Jungbluth;Anna-Lena;1924-8-12;Kernbek 39;Erlangen;91054;Bayern;NULL;NULL
+137;Backhaus;Tatiana;1930-3-16;Reuterweg 24;Konstanz;78465;Baden-Württemberg;NULL;NULL
+138;Schaaf;Cay;1926-2-3;Grünland-Donnerskirchen 67;Schwanebeck;39397;Sachsen-Anhalt;NULL;NULL
+139;Meisel;Wendelin;1930-11-9;Rudolf-Diesel-Straße 11;Hirschhorn;67732;Hessen;NULL;NULL
+140;Wein;Leonore;1928-4-1;Marie-Wittich-Straße 98;Soest;59494;Nordrhein-Westfalen;NULL;NULL
+141;Osterloh;Gertraud;1926-9-27;Wilhelm-Busch-Straße 74;Berlin;13593;Berlin;NULL;NULL
+142;Dietz;Arnim;1932-3-8;Julius-Otto-Straße 21c;Kleve;47533;Nordrhein-Westfalen;NULL;NULL
+143;Wisniewski;Helwart;1924-6-4;Am Finkenschlag 20;Stuttgart;70376;Baden-Württemberg;NULL;NULL
+144;Hill;Tilmann;1927-5-11;Gustav-Klimt-Weg 22;Schwerte;58239;Nordrhein-Westfalen;NULL;NULL
+145;Pape;Benjamin;1925-4-26;Feldkirchner Weg 31b;Müllheim;79379;Baden-Württemberg;NULL;NULL
+146;Mathes;Alrik;1932-7-3;Hosaeusweg 28;Berlin;10717;Berlin;NULL;NULL
+147;Dück;Giesbert;1925-8-22;An der Staufenmauer 75;Rodewisch;08228;Sachsen;NULL;NULL
+148;Harter;Dominikus;1925-6-3;Birkenhainer Straße 16;Hannover;30459;Niedersachsen;NULL;NULL
+149;Fuhrmann;Falkmar;1927-6-18;An der Schleife 74b;Berlin;10625;Berlin;NULL;NULL
+150;Eckhoff;Helen;1926-12-13;Ockerwitzer Allee 84;Hannover;30163;Niedersachsen;NULL;NULL
+151;Steinert;Carina;1927-3-18;Stengeletwiete 45;Gießen;35392;Hessen;NULL;NULL
+152;Jessen;Gotthelf;1924-12-11;Vilbeler Landstraße 94b;Ingolstadt;85053;Bayern;NULL;NULL
+153;Hass;Eleonora;1932-10-5;Montabaurer Straße 77;München;81539;Bayern;NULL;NULL
+154;Ortmann;Elkmar;1930-3-2;Kirschauer Straße 93b;Langenhagen;30855;Niedersachsen;NULL;NULL
+155;Repp;Hanshelmut;1924-1-16;Brüder-Grimm-Straße 73;Ransbach-Baumbach;56235;Rheinland-Pfalz;NULL;NULL
+156;Fritsch;Wilbert;1928-11-10;Martiniweg 85b;Stuttgart;70619;Baden-Württemberg;NULL;NULL
+157;Stemmler;Severin;1928-8-23;Zschertnitzer Weg 94c;Penkun;17328;Mecklenburg-Vorpommern;NULL;NULL
+158;Schatz;Evamaria;1928-6-5;Buchsbaumstraße 14;Sulingen;27232;Niedersachsen;NULL;NULL
+159;Kindler;Margit;1923-11-18;Archsumer Weg 19;Lengenfeld;08485;Sachsen;NULL;NULL
+160;Loth;Diethelm;1930-8-6;Am Eichenloh 42;Esens;26427;Niedersachsen;NULL;NULL
+161;Walz;Harro;1928-5-11;Friedensbrücke 29;Görlitz;02827;Sachsen;NULL;NULL
+162;Hoffmeister;Dietger;1923-6-23;Hunnenweg 16b;Hofgeismar;34369;Hessen;NULL;NULL
+163;Nordmann;Karolina;1931-9-30;Albert-Fromme-Weg 41;Reichenbach;07629;Sachsen;NULL;NULL
+164;Kolbe;Winand;1924-9-25;Schloßstraße 10a;Helmstedt;38350;Niedersachsen;NULL;NULL
+165;Cremer;Jupp;1931-9-1;Löwenzahnweg 75;Bremen;28217;FreieHansestadtBremen;NULL;NULL
+166;Bley;Rudolfina;1924-4-27;Schilfteichstraße 60;Arneburg;39596;Sachsen-Anhalt;NULL;NULL
+167;Rohleder;Hanns;1927-10-15;Jägerstieg 79a;Bernsdorf;09337;Sachsen;NULL;NULL
+168;Swoboda;Kristina;1925-11-22;Rebengasse 66;Meßkirch;88605;Baden-Württemberg;NULL;NULL
+169;Rist;Walburga;1923-9-22;Brommstraße 41;Marsberg;34431;Nordrhein-Westfalen;NULL;NULL
+170;Bork;Isabel;1923-9-19;Degelestraße 19b;Bremen;28203;FreieHansestadtBremen;NULL;NULL
+171;Bamberger;Bartosch;1927-9-29;Westpreußenstraße 3;Berlin;12437;Berlin;NULL;NULL
+172;Meinecke;Sabrine;1923-2-18;In der Fuchskaut 22;Hamburg;22049;Hamburg;NULL;NULL
+173;Buschmann;Ottobert;1929-4-14;Kleberstr. 78;Kirchberg;84434;Rheinland-Pfalz;NULL;NULL
+174;Brack;Gerhard;1924-8-15;Danziger Straße 14;Trochtelfingen;72818;Baden-Württemberg;NULL;NULL
+175;Winkel;Eric;1923-2-7;Gönnerstr. 19;Leipzig;04105;Sachsen;NULL;NULL
+176;Locher;Nunzius;1931-8-8;Böschenweg 74;Dachau;85221;Bayern;NULL;NULL
+177;Jesse;Otbert;1926-8-24;Mittelbachstr. 59;Nürnberg;90451;Bayern;NULL;NULL
+178;Retzlaff;Walti;1931-3-2;Helga-Wex-Platz 6;Dortmund;44265;Nordrhein-Westfalen;NULL;NULL
+179;Hess;Arwin;1928-9-9;Halepaghenstraße 75;Güsten;39439;Sachsen-Anhalt;NULL;NULL
+180;Plum;Katalin;1923-10-5;Limbacher Weg 90;Ilshofen;74532;Baden-Württemberg;NULL;NULL
+181;Posselt;Elena;1924-6-1;Kasseler Straße 7;Würzburg;97078;Bayern;NULL;NULL
+182;Riedel;Engelbrecht;1928-6-9;Lübbenauer Straße 11;Velbert;42555;Nordrhein-Westfalen;NULL;NULL
+183;Schäffer;Slavica;1932-7-2;Stephansplatz 50;Roßwein;04741;Sachsen;NULL;NULL
+184;Hentschel;Hilmar;1924-11-9;Öjendorfer Brücke 9;Berlin;12051;Berlin;NULL;NULL
+185;Henke;Heiner;1923-4-18;Schürbeker Bogen 32;Werther;33824;Nordrhein-Westfalen;NULL;NULL
+186;Fuchs;Sibyl;1925-8-14;Niedernhauser Straße 93;Mannheim;68307;Baden-Württemberg;NULL;NULL
+187;Piller;Cersten;1929-3-13;Südring 60b;Langenselbold;63505;Hessen;NULL;NULL
+188;Herzberg;Hannes;1926-3-10;Höfnageleck 21;Rennerod;56477;Rheinland-Pfalz;NULL;NULL
+189;Lembke;Helfrid;1929-6-6;Schneewittchenweg 30a;Arnstadt;99310;Thüringen;NULL;NULL
+190;Möllmann;Ludmila;1926-5-1;Elisabethenplatz 16;Barsinghausen;30890;Niedersachsen;NULL;NULL
+191;Reisinger;Annetraud;1927-1-14;Kanalstraße 80c;Gelsenkirchen;45884;Nordrhein-Westfalen;NULL;NULL
+192;Basler;Theodore;1929-4-13;Petterweilstraße 59;Bernburg;06406;Sachsen-Anhalt;NULL;NULL
+193;Schönfelder;Gernot;1932-11-20;Feldgerichtstraße 64;Dillenburg;35685;Hessen;NULL;NULL
+194;Mosch;Rezzo;1927-10-19;Frankfurter Straße 85;Freudenberg;57258;Baden-Württemberg;NULL;NULL
+195;Dräger;Edelinde;1925-2-8;Synagogenplatz 87a;Kenzingen;79341;Baden-Württemberg;NULL;NULL
+196;Wiedmann;Seppl;1928-10-29;Robert-Mayer-Straße 81;Bopfingen;73441;Baden-Württemberg;NULL;NULL
+197;Gaßner;Eckehardt;1927-7-14;Gagernstraße 61;Berlin;13055;Berlin;NULL;NULL
+198;Dieterich;Leo;1930-12-3;Tokajer Straße 40c;Düsseldorf;40472;Nordrhein-Westfalen;NULL;NULL
+199;Mayr;Gritt;1926-10-7;Tögelstraße 73;Griesheim;64347;Hessen;NULL;NULL
+200;Kehrer;Urta;1935-1-15;Stangestraße 6;Kusel;66869;Rheinland-Pfalz;NULL;NULL
+201;Zacher;Diethart;1933-1-31;Ziegeleistraße 55;Lippstadt;59556;Nordrhein-Westfalen;NULL;NULL
+202;Sand;Tankred;1934-5-30;Greifstraße 30b;Bielefeld;33617;Nordrhein-Westfalen;NULL;NULL
+203;Kolbeck;Lotti;1941-12-3;Starkenburger Straße 15;Braunfels;35619;Hessen;NULL;NULL
+204;Piel;Dietlinde;1939-12-30;Hermann-Vogel-Straße 7b;Hamburg;22391;Hamburg;NULL;NULL
+205;Groß;Joachim;1940-12-9;Michael Urient-Gasse 40;Hamburg;22089;Hamburg;NULL;NULL
+206;Schwarzer;Scholastika;1937-3-30;Sonnenhalde 44;Dresden;01277;Sachsen;NULL;NULL
+207;Schatz;Inkmar;1941-3-24;Georg-Treser-Straße 16b;Kevelaer;47625;Nordrhein-Westfalen;92;26
+208;Klinke;Cathleen;1941-7-18;Zum Nixenteich 78b;Singen;78224;Baden-Württemberg;NULL;NULL
+209;Adrian;Ermenhild;1933-11-7;Am Bahndamm 87;Northeim;37154;Niedersachsen;NULL;NULL
+210;Heyer;Reino;1938-10-5;Heinrich-Bleicher-Straße 74;Falkenberg;84326;Brandenburg;NULL;NULL
+211;Seliger;Eveline;1940-6-7;Schönaer Straße 69;Magdeburg;39122;Sachsen-Anhalt;NULL;NULL
+212;Keitel;Alinde;1939-4-4;Laschoberstraße 30;Nürnberg;90431;Bayern;16;43
+213;Valentin;Cathrin;1934-1-4;Scharfreiterplatz 70;Duisburg;47229;Nordrhein-Westfalen;NULL;NULL
+214;Strobl;Moritz;1941-1-28;Landsberger Straße 41a;Herbstein;36358;Hessen;NULL;NULL
+215;Schmidbauer;Luisa;1934-7-31;Ooser Luisenstraße 66;München;80995;Bayern;NULL;NULL
+216;Petri;Melitta;1938-9-14;Hedwig-Dransfeld-Straße 100;Eggesin;17367;Mecklenburg-Vorpommern;NULL;NULL
+217;Hammel;Theobalda;1940-5-1;An der Autobahn 76;Kandel;76870;Rheinland-Pfalz;NULL;NULL
+218;Ewald;Sylvia;1936-8-30;Elisabeth-Selbert-Platz 43;Naumburg;34311;Hessen;NULL;NULL
+219;Kittel;Thassilo;1940-8-28;Schwanenwik 34;Pfaffenhofen;74397;Bayern;NULL;NULL
+220;Holland;Gretlies;1933-10-15;Karschmühlenblick 84;Lindenberg;67473;Bayern;NULL;NULL
+221;Meuser;Ilsegret;1940-1-5;Plauenscher Ring 73c;Itzehoe;25524;Schleswig-Holstein;NULL;NULL
+222;Bangert;Connie;1938-11-27;Wenzelweg 33;Boxberg;97944;Baden-Württemberg;NULL;NULL
+223;Roßmann;Aloysius;1934-9-30;Margarete-Schütte-Lihotzky-Anlage 84;Schleusingen;98553;Thüringen;NULL;NULL
+224;Wulff;Mechtilde;1941-3-13;Am Fuchsberg 2;Braunschweig;38106;Niedersachsen;NULL;NULL
+225;Dahlke;Notker;1933-6-5;Serpentinstraße 8;Hamburg;21075;Hamburg;NULL;NULL
+226;Fuhr;Marlene;1940-3-2;Hennersdorfer Weg 48a;Lichtenfels;35104;Hessen;NULL;NULL
+227;Kaufmann;Dela;1934-3-7;Gwinnerstraße 4;Rehna;19217;Mecklenburg-Vorpommern;NULL;NULL
+228;Koslowski;Karleugen;1940-7-20;Fallerslebenstraße 86;Großalmerode;37247;Hessen;NULL;NULL
+229;Thomsen;Alin;1932-10-7;Klosterlehen 98;Bergheim;86673;Nordrhein-Westfalen;NULL;NULL
+230;Christmann;Svea;1939-6-17;Gompitzer Hang 87;Bergheim;50127;Nordrhein-Westfalen;NULL;NULL
+231;Dittmar;Volkhart;1936-10-5;Ellerstraße 93;Bergkamen;59192;Nordrhein-Westfalen;NULL;NULL
+232;Linz;Emeram;1941-10-5;Berggartenstraße 90;Berlin;12045;Berlin;NULL;NULL
+233;Behr;Ehrentraud;1940-1-12;Am Katzenberg 34;Rheinsberg;16831;Brandenburg;NULL;NULL
+234;Krahn;Rembert;1941-1-23;Zehnstraße 86;Mayen;56727;Rheinland-Pfalz;NULL;NULL
+235;Büscher;Elfriede;1938-2-4;Geierskopfweg 37a;Mindelheim;87719;Bayern;NULL;NULL
+236;Back;Birgid;1941-4-2;An der Gruckau 27;Wuppertal;42281;Nordrhein-Westfalen;NULL;NULL
+237;Volkmer;Sissy;1934-3-24;Deuil-La-Barre-Straße 55b;Bayreuth;95444;Bayern;NULL;NULL
+238;Rottmann;Sigolf;1938-12-20;Viktoriastraße 87;Hamburg;22523;Hamburg;NULL;NULL
+239;Berens;Siggi;1939-12-13;Neukloster-Forst-Weg 71b;Duisburg;47057;Nordrhein-Westfalen;NULL;NULL
+240;Kretzschmar;Ingelene;1935-2-27;Wegscheider Str. 95;Königswinter;53639;Nordrhein-Westfalen;NULL;NULL
+241;Schult;Timo;1938-7-23;Am Schneckenberg 46;Rodgau;63110;Hessen;NULL;NULL
+242;Bergner;Annegold;1937-8-10;Sandbodenweg 99;Lütjenburg;24321;Schleswig-Holstein;27;89
+243;Jentzsch;Rembert;1938-11-16;Wurmsweg 42b;Winterberg;59955;Nordrhein-Westfalen;NULL;NULL
+244;Stemmler;Reinhard;1939-3-2;Fürstenallee 78a;Flöha;09557;Sachsen;NULL;NULL
+245;Gilbert;Gabriel;1939-3-3;Landesgerichtsstraße 98;Asperg;71679;Baden-Württemberg;NULL;NULL
+246;Holzinger;Rosa-Maria;1936-7-12;Wendenbrücke 58;Uebigau-Wahrenbrück;04938;Brandenburg;29;55
+247;Buß;Lothar;1939-5-15;Wilhelm-Liebknecht-Straße 35;Neuss;41464;Nordrhein-Westfalen;NULL;NULL
+248;Knop;Lieselene;1941-7-28;Rudolf-Trache-Straße 13c;Herne;44649;Nordrhein-Westfalen;NULL;NULL
+249;Bender;Phillip;1936-3-11;Martin-Luther-Platz 82;München;80999;Bayern;NULL;NULL
+250;Küchler;Alma;1937-2-27;Heubnerstraße 11c;Magdeburg;39118;Sachsen-Anhalt;NULL;NULL
+251;Rummel;Hieronymus;1939-9-10;Am Pinzighof 83;Erfurt;99097;Thüringen;74;74
+252;Graß;Wendemar;1938-5-19;Heinrich-Plett-Straße 23;München;80634;Bayern;NULL;NULL
+253;Lemke;Katrein;1934-1-20;Meusegaster Straße 71;Köln;50765;Nordrhein-Westfalen;NULL;NULL
+254;Ferber;Rena;1941-7-3;Leppersdorfer Straße 62c;Rödental;96472;Bayern;NULL;NULL
+255;Dombrowski;Gesa;1941-7-4;Schleiermacherstraße 13;Ochsenhausen;88416;Baden-Württemberg;NULL;NULL
+256;Westphal;Leonharda;1938-5-3;Robert-Bosch-Str. 51;Heidelberg;69115;Baden-Württemberg;NULL;NULL
+257;Wimmer;Micha;1935-8-7;Weintraubenstraße 88;Rodewisch;08228;Sachsen;NULL;NULL
+258;Haller;Dietwolf;1934-7-30;Bellevue 78;Braunschweig;38112;Niedersachsen;NULL;NULL
+259;Eger;Raphaela;1936-3-13;Eilendorfer Weg 66b;Remscheid;42899;Nordrhein-Westfalen;NULL;NULL
+260;Ortner;Erlgard;1932-2-1;Hülßestraße 14;Berlin;12589;Berlin;NULL;NULL
+261;Thum;Detlev;1937-11-12;Fellnerstraße 100;Olfen;59399;Nordrhein-Westfalen;NULL;NULL
+262;Bethke;Arkadius;1932-8-6;Wildbergstraße 6;Stadtsteinach;95346;Bayern;NULL;NULL
+263;Ruppel;Vera;1937-7-21;Kellerkuhle 63;Volkach;97332;Bayern;NULL;NULL
+264;Rohde;Kurt;1939-6-25;Reichenbachstraße 35;Schlüchtern;36381;Hessen;NULL;NULL
+265;Schönborn;Berit;1939-6-30;Keppgrund 30;Betzdorf;57518;Rheinland-Pfalz;NULL;NULL
+266;Janik;Norman;1939-3-17;Hinterer Graben 73;Köln;50677;Nordrhein-Westfalen;NULL;NULL
+267;Karle;Steph;1939-2-26;Kurparkstraße 8;Schlitz;36110;Hessen;NULL;NULL
+268;Breit;Bernhard;1938-9-29;Julius-Heyman-Straße 10;Burgwedel;30938;Niedersachsen;NULL;NULL
+269;Bongartz;Wilfried;1934-11-21;Granitzer Weg 45;Ehrenfriedersdorf;09427;Sachsen;NULL;NULL
+270;Döhler;Jeannine;1938-12-5;Heiderandweg 85;Kassel;34119;Hessen;NULL;NULL
+271;Emmerich;Christamaria;1941-1-4;Martinsgasse 15;Immenhausen;34376;Hessen;NULL;NULL
+272;Löhr;Hubertus;1935-8-1;Minenstraße 89a;Arnstein;97450;Bayern;NULL;NULL
+273;Kappes;Konradin;1941-3-15;Auf dem Knüll 20;München;80336;Bayern;28;80
+274;Stumpe;Kajetan;1938-2-12;Hoyerswerdaer Straße 9;Bremen;28307;FreieHansestadtBremen;NULL;NULL
+275;Pabst;Margaritta;1933-5-3;Baumeisterstraße 86;Landshut;84030;Bayern;NULL;NULL
+276;Frahm;Rosetraut;1932-7-17;Neue Siedlung 38;Münster;48165;Nordrhein-Westfalen;NULL;NULL
+277;Kutz;Benedict;1932-10-2;Käthe-Hamann-Straße 24;Hermsdorf;39326;Thüringen;NULL;NULL
+278;Kappes;Ilsabe;1933-10-6;Flurstraße 28;Mannheim;68309;Baden-Württemberg;28;80
+279;Rauscher;Reginhardt;1937-4-4;Kohlenstraße 28;Hillesheim;54576;Rheinland-Pfalz;NULL;NULL
+280;Kiefer;Wolfgang;1940-1-7;Peter-Marquard-Straße 48b;Hennigsdorf;16761;Brandenburg;NULL;NULL
+281;Stenger;Iris;1936-1-28;Friedlebenstraße 63b;Fellbach;70734;Baden-Württemberg;NULL;NULL
+282;Pech;Luitwin;1935-8-5;Zum Tierheim 6;Dahn;66994;Rheinland-Pfalz;NULL;NULL
+283;Scholten;Emmi;1934-3-30;Bleckering 99;Köln;50733;Nordrhein-Westfalen;NULL;NULL
+284;Rösner;Catherine;1932-10-31;Mammolshainer Straße 37;Gützkow;17506;Mecklenburg-Vorpommern;NULL;NULL
+285;Fehr;Annkatrin;1935-10-31;Rothofer Weg 51a;Marktbreit;97340;Bayern;NULL;NULL
+286;Schall;Botho;1938-5-5;Grimoldweg 25;Ratingen;40878;Nordrhein-Westfalen;NULL;NULL
+287;Esser;Gertrude;1940-12-13;Guntherstr. 86c;Nürnberg;90491;Bayern;NULL;NULL
+288;Eichholz;Renold;1934-12-19;Röthenbacher Straße 98;Augsburg;86153;Bayern;NULL;NULL
+289;Dewald;Anna-Marie;1934-12-22;Wolfhagener Straße 56;Erfurt;99097;Thüringen;NULL;NULL
+290;Habel;Sidonius;1932-2-9;Döbrastr. 21;Dommitzsch;04880;Sachsen;77;NULL
+291;John;Dennis;1938-1-24;Oberhafenbrücke 43;Wiesbaden;65193;Hessen;76;81
+292;Wortmann;Friderike;1935-1-15;Schongauerstraße 66;Mansfeld;06343;Sachsen-Anhalt;NULL;NULL
+293;Pabst;Annie;1933-8-18;Jessener Straße 45;Melle;49326;Niedersachsen;NULL;NULL
+294;Haberl;Carolin;1938-10-15;Kärntner Weg 41;Minden;32427;Nordrhein-Westfalen;NULL;NULL
+295;Reiners;Bruna;1936-3-25;Stuttgarter Straße 1;Schleusingen;98553;Thüringen;NULL;NULL
+296;Laskowski;Hansdieter;1938-10-27;Lockwitzbachweg 53a;Hamburg;20539;Hamburg;NULL;NULL
+297;Merkle;Siegrun;1935-2-3;Binsenweg 46;Buchloe;86807;Bayern;NULL;NULL
+298;Plate;Hasko;1940-11-2;Marktstraße 23;Düsseldorf;40237;Nordrhein-Westfalen;NULL;NULL
+299;Schacht;Ludolf;1938-7-1;Gerningstraße 96;Hemmoor;21745;Niedersachsen;NULL;NULL
+300;Schultes;Ingbert;1944-11-9;Am Mittelwald 72;Kempten;87435;Bayern;NULL;NULL
+301;Hetzel;Meryem;1942-1-18;Hongkongkehre 15;Rödermark;63322;Hessen;NULL;NULL
+302;Henrichs;Olaf;1942-8-10;Überlinger Weg 55;Berlin;13127;Berlin;NULL;NULL
+303;Luther;Isabella;1945-2-23;Barbarossastraße 10;Bochum;44869;Nordrhein-Westfalen;NULL;NULL
+304;Donath;Joel;1941-3-10;Korffstraße 53;Nürnberg;90409;Bayern;NULL;NULL
+305;Schimmelpfennig;Albert;1945-9-14;Kalk-Mülheimer-Straße 25;Renchen;77871;Baden-Württemberg;NULL;72
+306;Scheidt;Irmentraud;1947-2-14;Altomsewitz 87;Hennef;53773;Nordrhein-Westfalen;NULL;NULL
+307;Möller;Wendel;1943-2-12;Fährhausbrücke 12;Homberg;67744;Hessen;NULL;72
+308;Wollny;Kai;1945-12-16;Königsweg 1;Ravensburg;88213;Baden-Württemberg;NULL;NULL
+309;Reiner;Gertrud;1944-3-25;Albanusstraße 32;Köln;50735;Nordrhein-Westfalen;NULL;NULL
+310;Schaal;Iven;1947-1-18;Schlottwitzer Straße 9;Nittenau;93149;Bayern;NULL;NULL
+311;Götte;Hedi;1950-6-9;An der Universität 88c;Kierspe;58566;Nordrhein-Westfalen;NULL;46
+312;Rummel;Ehrentraud;1943-11-12;Riedgrund 51;Neuerburg;54673;Rheinland-Pfalz;74;46
+313;Dietz;Harry;1949-6-23;Wilhelm-Epstein-Straße 24;Rosenheim;57520;Bayern;142;159
+314;Neu;Otthein;1942-7-20;Kellerberg 83;Külsheim;97900;Baden-Württemberg;NULL;NULL
+315;Boden;Wilmut;1948-7-5;Schleemer Brücke 70;Thalheim;06766;Sachsen;NULL;NULL
+316;Rücker;Rasso;1948-6-23;Schorkstr. 15c;Würzburg;97076;Bayern;NULL;NULL
+317;Winkel;Reglind;1948-10-11;Fabriciusstraße 70;Wernau;73249;Baden-Württemberg;175;NULL
+318;Bade;Thielo;1947-5-31;Schmiedegäßchen 36a;Altlandsberg;15345;Brandenburg;NULL;NULL
+319;Karcher;Irmentraud;1947-2-1;Deubener Straße 97;Grimmen;18507;Mecklenburg-Vorpommern;NULL;NULL
+320;Wehner;Daphne;1948-9-26;Waldstr. 86a;Lommatzsch;01623;Sachsen;NULL;NULL
+321;Rapp;Rebekka;1949-8-9;Blagnac-Brücke 93;Osthofen;67574;Rheinland-Pfalz;NULL;NULL
+322;Andersen;Anemone;1948-10-29;Am Kaditzer Tännicht 40;Korntal-Münchingen;70825;Baden-Württemberg;NULL;NULL
+323;Thelen;Ulwin;1947-7-14;Vogelsanger Weg 34;Ludwigsburg;71640;Baden-Württemberg;NULL;NULL
+324;Teichert;Anna-Marie;1945-1-4;Eibauer Straße 61;Weißenhorn;89264;Bayern;NULL;NULL
+325;Lamprecht;Roslinda;1945-10-13;Kalkentalstraße 62;Hornbach;66500;Rheinland-Pfalz;NULL;NULL
+326;Schatz;Hülya;1947-8-18;Mönchsholz 53;Lichtenau;09244;Baden-Württemberg;92;26
+327;Jacobsen;Sandra;1944-12-24;Devrientstraße 69;Berlin;13189;Berlin;NULL;NULL
+328;Zorn;Frohwald;1942-7-7;Weidenweg 98;Berlin;10777;Berlin;NULL;NULL
+329;Wischnewski;Oliver;1947-8-2;Rotdornweg 52;Oberhausen;46045;Nordrhein-Westfalen;NULL;NULL
+330;Rhein;Anselm;1944-4-2;Breitenauer Straße 93;Düsseldorf;40629;Nordrhein-Westfalen;NULL;87
+331;Habel;Jelena;1944-7-8;Kirchäckergasse 8;Hamburg;21031;Hamburg;77;NULL
+332;Weller;Hannelotte;1942-11-11;Arnoldshainer Straße 92b;Aschersleben;06449;Sachsen-Anhalt;NULL;NULL
+333;Piotrowski;Folkhart;1942-4-19;Alfred-Brehm-Platz 68a;Hamburg;21039;Hamburg;NULL;NULL
+334;Hutter;Friedhilde;1941-5-26;Otto-Flake-Straße 88;Regis-Breitingen;04565;Sachsen;NULL;NULL
+335;Bergner;Irlanda;1945-3-8;Mandelbaumweg 15;Thum;09419;Sachsen;27;89
+336;Weidmann;Hannes;1949-3-3;Hesselbergweg 17;Leipzig;04229;Sachsen;62;15
+337;Kirchhoff;Roseline;1942-4-9;Am Lohwald 77b;Waldenbuch;71111;Baden-Württemberg;NULL;NULL
+338;Ochs;Bernadette;1944-10-12;Hellerstr. 39;Schönberg;23923;Mecklenburg-Vorpommern;NULL;72
+339;Hilbert;Sibylle;1946-8-10;Hemmerichsweg 10c;Plauen;08527;Sachsen;NULL;NULL
+340;Winkel;Antje;1944-9-13;Struvestraße 21;Clingen;99718;Thüringen;175;NULL
+341;Jakob;Edelbert;1947-6-17;Ockerwitzer Allee 41;Sendenhorst;48324;Nordrhein-Westfalen;NULL;NULL
+342;Repp;Eike;1942-3-11;Pulvergasse 49;Löffingen;79843;Baden-Württemberg;155;181
+343;Schönfelder;Erfried;1949-7-26;Altwachwitz 17;Norderstedt;22848;Schleswig-Holstein;193;NULL
+344;Mark;Reinar;1950-6-2;Zum Schmiedeberg 53;Ellingen;91792;Bayern;NULL;NULL
+345;Lorenzen;Gerritdina;1949-3-4;Altstrehlen 39;Hannover;30419;Niedersachsen;60;NULL
+346;Röhrig;Sigurd;1946-3-20;Krifteler Straße 69;Köln;51147;Nordrhein-Westfalen;NULL;NULL
+347;Willer;Ann-Kathrin;1944-9-20;Steintordamm 31;Elmshorn;25335;Schleswig-Holstein;NULL;NULL
+348;Bosch;Robert;1946-4-5;Trachauer Straße 47;Bremen;28219;FreieHansestadtBremen;NULL;NULL
+349;Hüther;Waldtraud;1947-3-11;Ferdinand-Braun-Straße 90b;Nortorf;25554;Schleswig-Holstein;NULL;66
+350;Stingl;Tiemo;1949-2-24;Dr. Ernst Franz-Straße 4c;Sachsenhagen;31553;Niedersachsen;NULL;NULL
+351;Weyers;Falk;1941-1-25;Geierskopfweg 98;Berlin;10707;Berlin;NULL;NULL
+352;Reis;Thomas;1950-3-8;Ullersdorfer Straße 13;Lauterbach;99826;Hessen;NULL;NULL
+353;Poser;Wendelinus;1950-9-6;Liststraße 86;Offenburg;77652;Baden-Württemberg;NULL;87
+354;Griese;Wilbrand;1945-4-1;Fährgäßchen 84;Babenhausen;64832;Hessen;NULL;NULL
+355;Kappel;Didi;1949-6-6;Michael-Raulino-Str. 79b;Dinslaken;46535;Nordrhein-Westfalen;NULL;NULL
+356;Kästner;Luisa;1947-5-29;Riesenweg 65;Weingarten;76356;Baden-Württemberg;NULL;NULL
+357;Grunert;Lidija;1944-10-5;Staffelsteinstraße 31c;Hagen;58097;Nordrhein-Westfalen;NULL;NULL
+358;Kipp;Dietram;1949-3-31;Carl-Sonnenschein-Straße 70;Weilburg;35781;Hessen;NULL;NULL
+359;Fehr;Steffi;1941-4-29;Arno-Holz-Allee 22;Köln;51067;Nordrhein-Westfalen;NULL;NULL
+360;Zettl;Elena;1949-6-20;Ruster Straße 58;Nürnberg;90419;Bayern;NULL;NULL
+361;Schatz;Wladislaus;1943-11-29;Semmelweisstraße 48;Bergheim;50126;Nordrhein-Westfalen;92;96
+362;Störmer;Reinhold;1949-7-13;Auerswaldstraße 85;Oberlungwitz;09353;Sachsen;NULL;NULL
+363;Lohr;Harribert;1946-4-15;Im Kammerdorf 11;Menden;58710;Nordrhein-Westfalen;NULL;NULL
+364;Brehm;Fridolin;1946-3-29;Meenkwiese 22;Düsseldorf;40472;Nordrhein-Westfalen;NULL;NULL
+365;Georgi;Beat;1941-1-27;Bürgerweide 35;München;80638;Bayern;NULL;NULL
+366;Finkbeiner;Friedhelm;1948-4-2;Zur Kurwiese 53;Bürgel;07616;Thüringen;NULL;72
+367;Singer;Tillmann;1943-9-4;Schilfteichstraße 80;Dortmund;44369;Nordrhein-Westfalen;NULL;NULL
+368;Schönfelder;Gundhart;1944-1-8;Im Metzenacker 85;Solingen;42651;Nordrhein-Westfalen;193;NULL
+369;John;Ingowart;1949-12-18;Hasenmoor 40;Bochum;44803;Nordrhein-Westfalen;76;NULL
+370;Fritsche;Zita;1945-9-2;Großzschachwitzer Straße 58c;Osterburg;39606;Sachsen-Anhalt;NULL;NULL
+371;Dietz;Gunhild;1941-8-10;Fischerei 71;Hitzacker;29456;Niedersachsen;142;169
+372;Voges;Reny;1946-1-7;Luboldtstraße 90a;Wesel;46483;Nordrhein-Westfalen;NULL;NULL
+373;Stricker;Roland;1947-9-13;Krebser Straße 20;Garbsen;30823;Niedersachsen;NULL;NULL
+374;Kiesel;Desiree;1944-3-5;Nebeniusstraße 79;Löwenstein;74245;Baden-Württemberg;NULL;NULL
+375;Saß;Mathilde;1948-1-1;Niedernhauser Straße 94;Landsberg;06188;Sachsen-Anhalt;NULL;NULL
+376;Bönisch;Thurid;1946-11-7;Neuländer Straße 22c;Berlin;12099;Berlin;NULL;NULL
+377;Thoms;Joscha;1949-3-27;Horner Landstraße 24;Bismark;17322;Sachsen-Anhalt;NULL;NULL
+378;Stocker;Friedmar;1942-3-31;Steinfeldtstraße 48;Meschede;59872;Nordrhein-Westfalen;NULL;NULL
+379;Christian;Erhart;1945-7-18;Kaimsgasse 32;Kiel;24118;Schleswig-Holstein;NULL;NULL
+380;Rüter;Roselinde;1942-11-26;Lahmäckerstraße 9;Baden-Baden;76534;Baden-Württemberg;NULL;NULL
+381;Volkmer;Urban;1944-2-23;August-Euler-Straße 80;Lörrach;79539;Baden-Württemberg;NULL;NULL
+382;Kalinowski;Willibert;1941-2-22;Dellauerweg 68;Leipzig;04107;Sachsen;NULL;NULL
+383;Niemeyer;Engelmar;1942-1-7;Dellbrücker Straße 86a;Büdingen;63654;Hessen;NULL;NULL
+384;Wahl;Kerstin;1949-7-15;Weyermannstr. 37;Bleckede;21354;Niedersachsen;NULL;NULL
+385;Fengler;Hubertina;1943-1-24;Gröbelstraße 58b;Kassel;34123;Hessen;NULL;NULL
+386;Emde;Irmo;1944-6-5;Hofsatz 29;Berlin;14131;Berlin;NULL;NULL
+387;Steinkamp;Ursus;1947-6-4;Kaufbacher Straße 73a;Weiterstadt;64331;Hessen;NULL;NULL
+388;Tietz;Lisette;1941-11-17;Tannenkopfweg 74;Berlin;12107;Berlin;NULL;NULL
+389;Grünewald;Ambros;1942-1-7;Hans Siebenhirter-Gasse 40;Aub;97239;Bayern;NULL;NULL
+390;Kretschmann;Ehrentrudis;1941-1-4;Friedewalder Weg 92;Golßen;15938;Brandenburg;NULL;NULL
+391;Buhr;Tankred;1950-12-10;Mergenthalerstraße 33;Xanten;46509;Nordrhein-Westfalen;NULL;NULL
+392;Störmer;Sylwia;1941-1-15;Weegmannufer 88;Unkel;53572;Rheinland-Pfalz;NULL;NULL
+393;Mey;Walther;1949-11-26;An der Niedermühle 98;Bergen;55608;Niedersachsen;NULL;NULL
+394;Hanke;Sibel;1946-7-20;De-Ridder-Weg 36;Kalkar;47546;Nordrhein-Westfalen;NULL;NULL
+395;Kappes;Lambert;1942-10-3;Karl-Lachmann-Straße 30a;Berlin;10713;Berlin;28;44
+396;Kühl;Hedwig;1942-1-9;Kirchhoffstraße 20;Lüchow;23898;Niedersachsen;NULL;NULL
+397;Mielke;Bertwin;1941-9-25;Arnstädter Weg 48;Braunschweig;38102;Niedersachsen;NULL;NULL
+398;Stracke;Franzi;1948-5-8;Bülaustraße 72;Großröhrsdorf;01900;Sachsen;NULL;NULL
+399;Karg;Pirmin;1946-11-12;Scheidemantelstraße 90;Röttingen;97285;Bayern;NULL;NULL
+400;Riehl;Gunthard;1951-12-19;Wörsdorfer Straße 21;Kempten;87439;Bayern;NULL;NULL
+401;Wiest;Adele;1953-12-2;Rechte Hauptzeile 74;Hannover;30159;Niedersachsen;NULL;NULL
+402;Volkert;Zenzi;1952-2-5;Keppgrund 20;Berlin;14129;Berlin;NULL;NULL
+403;Mathes;Ellengard;1956-8-2;An der Este 60;Remscheid;42853;Nordrhein-Westfalen;NULL;NULL
+404;Grobe;Kristine;1957-1-25;Landwehr 17;Münster;48155;Nordrhein-Westfalen;NULL;284
+405;Faust;Iris;1950-7-25;Menzelgasse 34;Daun;54550;Rheinland-Pfalz;NULL;NULL
+406;Kappes;Justus;1954-2-11;Faulborngasse 76;Dresden;01157;Sachsen;28;44
+407;Zacher;Wilbrandt;1953-7-4;Ödenburgerstraße 9;Berlin;10787;Berlin;201;263
+408;Majewski;Amrei;1956-7-15;Beselerstraße 32;Karlsruhe;76229;Baden-Württemberg;NULL;NULL
+409;Habel;Aysel;1959-1-20;Hans-Jüchser-Straße 21;Cottbus;03054;Brandenburg;77;NULL
+410;Heumann;Wolfeckart;1953-11-27;Platanenallee 41a;Krefeld;47803;Nordrhein-Westfalen;NULL;NULL
+411;Keitel;Elgard;1957-10-11;Günther-Groenhoff-Straße 50;Schwerin;19063;Mecklenburg-Vorpommern;NULL;NULL
+412;Repp;Gustel;1959-11-17;Gustinus Ambrosi-Weg 89;Simmern;55469;Rheinland-Pfalz;155;181
+413;Otte;Riana;1950-4-7;Am Bergblick 86;Mainburg;84048;Bayern;NULL;NULL
+414;Pauly;Ilse;1959-10-6;Jokohamabrücke 42;Schotten;63679;Hessen;NULL;NULL
+415;Stegmann;Katharina;1952-1-22;Weistropper Weg 9;Velden;91235;Bayern;NULL;183
+416;Karsten;Bianka;1956-10-20;Thomaestraße 55;Stuttgart;70197;Baden-Württemberg;NULL;NULL
+417;Voß;Cristina;1950-10-5;An der Schleife 30;Seesen;38723;Niedersachsen;NULL;NULL
+418;Wiemer;Cristina;1956-4-5;Sebastian-Kneipp-Straße 1b;Bremen;28279;FreieHansestadtBremen;NULL;NULL
+419;Radtke;Lara;1953-12-18;Lichtentaler Allee 14;Dieburg;64807;Hessen;NULL;NULL
+420;Brühl;Aenne;1956-11-20;Jägerpark 23;Brühl;68782;Nordrhein-Westfalen;NULL;NULL
+421;Buchner;Stephanie;1956-10-14;Mannshalm 66;Rödermark;63322;Hessen;NULL;NULL
+422;Dieterich;Dietram;1959-3-3;Karl Auer von Welsbach-Weg 15;Chemnitz;09120;Sachsen;198;183
+423;Dietz;Stilla;1957-12-30;Leunastraße 77;Weikersheim;97990;Baden-Württemberg;142;169
+424;Lohmann;Constance;1957-3-8;Am Kesselgrund 72;Ochsenfurt;97199;Bayern;NULL;NULL
+425;Garbe;Edmund;1953-1-2;Matisseweg 35;Hemsbach;69502;Baden-Württemberg;NULL;NULL
+426;Weidmann;Gundhard;1957-3-23;Klausenburger Straße 85;Kölleda;99625;Thüringen;62;15
+427;Winkel;Reinfriede;1957-1-5;Steinhauerdamm 3;Dortmund;44141;Nordrhein-Westfalen;175;NULL
+428;Schultheis;Marleen;1950-12-19;Jean-Paul-Straße 95b;Biedenkopf;35216;Hessen;NULL;NULL
+429;Ihle;Nikodemus;1958-10-14;Bernadottestraße 45;Bremen;28309;FreieHansestadtBremen;NULL;NULL
+430;Schönfelder;Edeltraudt;1958-9-20;Heigenbrücker Weg 8;Hannover;30627;Niedersachsen;NULL;NULL
+431;Albers;Iwona;1957-11-17;Hansenweg 25c;Neckargemünd;69151;Baden-Württemberg;NULL;NULL
+432;Stenger;Roman;1954-2-4;Hotterweg 72;Mössingen;72116;Baden-Württemberg;NULL;NULL
+433;Laskowski;Edelfriede;1958-8-17;Melisseweg 36a;Halle;06124;Nordrhein-Westfalen;296;253
+434;Geis;Frithjof;1955-4-16;Erich-Ockert-Weg 41;Münchenbernsdorf;07589;Thüringen;NULL;NULL
+435;Schmied;Nurten;1959-9-17;Johann Nepomuk Hummel-Weg 6;Lübeck;23570;Schleswig-Holstein;NULL;NULL
+436;Menke;Nathalie;1956-7-14;Pyrmonter Straße 78;München;81375;Bayern;NULL;NULL
+437;Arens;Karlfrieder;1957-10-29;Neuer Weg 66;Halle;06118;Nordrhein-Westfalen;NULL;NULL
+438;Heck;Erdwin;1954-8-26;Miltitzer Straße 54;Kiel;24111;Schleswig-Holstein;NULL;NULL
+439;Morgenstern;Sonnhilde;1956-4-12;Pottendorfer Straße 20;Schwarzenbach;92720;Bayern;NULL;NULL
+440;Bongartz;Hartfried;1957-11-19;Grafenstraße 87;Ilmenau;98693;Thüringen;269;230
+441;Manske;Rosina;1950-8-3;Schimmelsgasse 14c;Berlin;12437;Berlin;NULL;NULL
+442;Maurer;Carola;1955-7-25;Am Klöterbusch 71;Leverkusen;51373;Nordrhein-Westfalen;109;158
+443;Tausch;Ingbert;1955-4-25;Brunnenstr. 76c;Böhlen;98701;Sachsen;NULL;NULL
+444;Schatz;Thea;1958-12-6;Hadamarer Straße 19;Hamburg;21147;Hamburg;92;96
+445;John;Tabea;1952-11-30;Eichbuscher Straße 52;Fellbach;70736;Baden-Württemberg;76;81
+446;Koch;Irmlinde;1957-5-4;Richthofenstr. 21c;Westerstede;26655;Niedersachsen;NULL;NULL
+447;Maurer;Ivette;1959-8-31;Akademiestraße 90;Dingolfing;84130;Bayern;109;158
+448;Knobloch;Margaretha;1950-8-2;An den Kalköfen 59;Rötz;92444;Bayern;NULL;NULL
+449;Borchardt;Regine;1951-11-8;Georg-Mann-Str. 95;Osterholz-Scharmbeck;27711;Niedersachsen;NULL;NULL
+450;Henrichs;Erich;1956-2-27;An der Kucksche 41;Itzehoe;25524;Schleswig-Holstein;NULL;NULL
+451;Holm;Minna;1958-2-21;Am Erlichberg 85;Bielefeld;33659;Nordrhein-Westfalen;NULL;NULL
+452;Löhr;Sigrun;1957-7-22;Boberger Straße 83a;Lingen;49809;Niedersachsen;272;226
+453;Behrens;Eyck;1952-11-12;Oppauer Weg 50;Neuffen;72639;Baden-Württemberg;NULL;NULL
+454;Bunge;Imelda;1951-7-23;Hoher Weg 13;Berlin;10785;Berlin;NULL;NULL
+455;Schüssler;Frohmund;1956-6-5;Am Sportplatz 24a;Northeim;37154;Niedersachsen;NULL;NULL
+456;Koch;Ludwig;1950-5-27;Schoberstraße 72;Taucha;06679;Sachsen;NULL;NULL
+457;Thieme;Silvester;1953-10-30;Wenzelweg 14b;Coswig;06869;Sachsen-Anhalt;47;NULL
+458;Carstensen;Hildebert;1956-9-15;Altlockwitz 70;Aachen;52072;Nordrhein-Westfalen;NULL;NULL
+459;John;Gebhard;1954-3-15;An der Universität 73;Kirchberg;08107;Rheinland-Pfalz;76;NULL
+460;Schnitzler;Susann;1952-1-15;Krälingweg 85;Karlsruhe;76228;Baden-Württemberg;NULL;NULL
+461;Schipper;Ronny;1953-9-1;Crutzenkirchweg 7c;Freudenberg;97896;Baden-Württemberg;NULL;NULL
+462;Habel;Friedhart;1959-4-8;Arkonastraße 12;Dortmund;44357;Nordrhein-Westfalen;290;229
+463;Heisig;Liselore;1954-8-6;Conradplatz 71b;Hamburg;22147;Hamburg;NULL;NULL
+464;Koslowski;Margareth;1951-9-26;Eva-Schulze-Knabe-Straße 5;Roth;56368;Bayern;228;260
+465;Keitel;Elke;1956-12-26;Kinderhortstraße 29;Obernkirchen;31683;Niedersachsen;16;43
+466;Eder;Trauhard;1958-9-11;Großenhainer Platz 37;Plön;24306;Schleswig-Holstein;NULL;NULL
+467;Schuler;Klaudius;1959-4-21;Auguststraße 80;Iserlohn;58636;Nordrhein-Westfalen;NULL;NULL
+468;Henninger;Burghilde;1951-4-17;Breitenauer Straße 57a;Friedrichshafen;88045;Baden-Württemberg;NULL;NULL
+469;Brummer;Florentius;1952-1-5;Cassellastraße 96;Zell;93199;Rheinland-Pfalz;NULL;NULL
+470;John;Hariolf;1950-11-5;Jonsdorfer Straße 62a;Schraplau;06279;Sachsen-Anhalt;291;246
+471;Schwarze;Gernod;1955-11-23;Unterbergstraße 35;Marktleuthen;95168;Bayern;NULL;NULL
+472;Mücke;Klarissa;1951-3-11;Schiffbeker Höhe 48;Genthin;39307;Sachsen-Anhalt;NULL;NULL
+473;Sperl;Arnt;1952-12-26;Mainluststr. 72;Diepholz;49356;Niedersachsen;NULL;46
+474;Schatz;Steph;1954-1-7;Leonardo-da-Vinci-Allee 40;Eibenstock;08309;Sachsen;92;96
+475;Schnabel;Utto;1958-6-14;Mühlbruchstraße 6c;Wuppertal;42287;Nordrhein-Westfalen;NULL;72
+476;Greif;Klothilde;1955-5-5;Mühlwörth 26a;Hamm;59067;Nordrhein-Westfalen;NULL;NULL
+477;Wedekind;Willehad;1951-8-9;Porgesring 63;Berlin;13403;Berlin;NULL;NULL
+478;Schürmann;Arno;1956-7-13;Bunte-Kuh-Weg 42;Viechtach;94234;Bayern;NULL;NULL
+479;Heigl;Magda;1953-5-14;Friedrichsdorfer Straße 35;Schleiden;53937;Nordrhein-Westfalen;NULL;NULL
+480;Voit;Robert;1951-7-11;Ostritzer Straße 83;Stuttgart;70567;Baden-Württemberg;NULL;NULL
+481;Adolf;Brigitta;1950-7-27;Paul-Büttner-Straße 87;Berlin;13127;Berlin;NULL;NULL
+482;Bauer;Annkathrin;1955-3-21;Ottoplatz 51;Berlin;13465;Berlin;NULL;NULL
+483;Rummel;Elkmar;1953-5-29;Eberhardstraße 60c;Altlandsberg;15345;Brandenburg;74;46
+484;Jungmann;Cosima;1958-1-6;Theodor-Neubürger-Straße 96b;Köln;51105;Nordrhein-Westfalen;NULL;NULL
+485;Rasch;Gerda;1959-12-30;Celsiusplatz 72;Bergen;29303;Niedersachsen;NULL;183
+486;Dieterich;Anka;1959-8-9;Hasencleverstraße 41;Waibstadt;74915;Baden-Württemberg;198;183
+487;Schatz;Engelbert;1958-9-1;Koglweg 41c;Wiesensteig;73349;Baden-Württemberg;92;26
+488;Eibl;Daniel;1950-4-18;Hartmannstr. 90;Falkenstein;67808;Sachsen;NULL;93
+489;Klingbeil;Sieghild;1950-11-11;Feenteichbrücke 44;Berlin;12307;Berlin;NULL;NULL
+490;Neugebauer;Roselene;1951-2-4;Löwenhainer Straße 64;Bremen;28201;FreieHansestadtBremen;NULL;NULL
+491;Arndt;Ellinor;1958-9-18;Ludwig-Ermold-Straße 26;Schwarzheide;01987;Brandenburg;NULL;NULL
+492;Kost;Mechtild;1950-4-20;Mönchhofstraße 17;Aub;97239;Bayern;NULL;NULL
+493;Möckel;Malwine;1957-4-18;Wendelsplatz 67c;Plochingen;73207;Baden-Württemberg;NULL;93
+494;Rummel;Reinulf;1954-4-2;Regnitzstr. 23;Halle;06112;Nordrhein-Westfalen;251;253
+495;Rummel;Margunde;1958-10-29;Ferdinandplatz 79;Markranstädt;04420;Sachsen;251;254
+496;Weide;Wendel;1956-8-15;Briesnitzer Höhe 41b;Zell;56856;Rheinland-Pfalz;NULL;NULL
+497;Bendel;Julie;1952-4-17;Striesener Weg 26;Siegen;57078;Nordrhein-Westfalen;NULL;NULL
+498;Schönfelder;Anuschka;1950-2-11;Liliengasse 75c;Hamburg;21077;Hamburg;193;NULL
+499;Habel;Volkrad;1956-3-17;Hellerstr. 59;Hamburg;20253;Hamburg;290;292
+500;Knauer;Miriam;1964-1-14;Urnenstraße 54;Eggesin;17367;Mecklenburg-Vorpommern;NULL;NULL
+501;Gürtler;Gülsen;1960-4-21;Steinbeker Grenzdamm 53;Mettmann;40822;Nordrhein-Westfalen;NULL;72
+502;Holzwarth;Hedy;1966-2-26;Adalbert-Stifter-Weg 18;Freren;49832;Niedersachsen;NULL;NULL
+503;John;Borka;1967-5-8;Dürerstraße 16a;Flensburg;24943;Schleswig-Holstein;76;81
+504;Kiefer;Gernot;1968-11-17;Henrikweg 48;Eberbach;69412;Baden-Württemberg;NULL;168
+505;Herwig;Rose;1964-9-27;Niederauer Platz 79;Landsberg;06188;Sachsen-Anhalt;NULL;NULL
+506;Leibold;Diethmar;1968-10-25;Snitgerreihe 24;Kastellaun;56288;Rheinland-Pfalz;NULL;NULL
+507;Strack;Birke;1967-3-1;Rudolf-Roß-Allee 62;Finsterwalde;03238;Brandenburg;NULL;NULL
+508;Ley;Christiana;1966-8-25;Schleemkoppel 48;Dresden;01239;Sachsen;NULL;NULL
+509;Niemeyer;Dietwulf;1960-8-28;Butenkamp 62;Oelsnitz;08606;Sachsen;383;NULL
+510;Keitel;Erdheide;1967-5-23;Ilkenhansstraße 63;Achim;38312;Niedersachsen;16;75
+511;Miller;Ehrentrudis;1960-3-30;Wilhelmsbader Weg 98;Rostock;18146;Mecklenburg-Vorpommern;NULL;NULL
+512;Wünsch;Ekaterina;1960-12-19;Abflugring 60c;Düsseldorf;40221;Nordrhein-Westfalen;NULL;NULL
+513;Jürgensen;Helen;1965-1-7;Gundermannstraße 52;Dortmund;44357;Nordrhein-Westfalen;NULL;NULL
+514;Steinmüller;Vincenz;1962-8-30;Marie-Hankel-Straße 94;Gelsenkirchen;45886;Nordrhein-Westfalen;NULL;NULL
+515;Brummer;Isidor;1962-10-5;Augrabenweg 78;Knittlingen;75438;Baden-Württemberg;NULL;NULL
+516;Repp;Waldtraut;1963-4-8;Weidegasse 34;Dingelstädt;37351;Thüringen;155;181
+517;John;Resie;1961-4-21;Dietrich-Bonhoeffer-Platz 56;Flensburg;24939;Schleswig-Holstein;369;359
+518;Plate;Gerthold;1968-10-8;Tauchnitzweg 89c;Stade;21680;Niedersachsen;298;NULL
+519;Herzberg;Follrich;1961-3-24;Humserstraße 74;Pforzheim;75173;Baden-Württemberg;188;111
+520;Polzin;Frowine;1964-5-13;Hohmannstr. 35a;Aulendorf;88326;Baden-Württemberg;NULL;NULL
+521;Rump;Renilde;1965-6-3;Ludwig-Ruppel-Straße 43;Münster;48153;Nordrhein-Westfalen;NULL;NULL
+522;Eitel;Gerolf;1965-8-10;Gerolsteiner Straße 76;Neuruppin;16816;Brandenburg;NULL;NULL
+523;Rein;Hasso;1964-5-23;Laurenzistr. 65;Bielefeld;33729;Nordrhein-Westfalen;NULL;NULL
+524;Cremer;Leila;1959-3-10;Pfarrgasse 82;Kandern;79400;Baden-Württemberg;165;116
+525;Hintze;Dorothee;1960-4-11;Gärtnerweg 84;Kaub;56349;Rheinland-Pfalz;23;94
+526;Mattern;Burglinde;1959-6-9;Robert-Bunsen-Straße 7;Ortrand;01990;Brandenburg;NULL;NULL
+527;Junghans;Lilian;1962-3-12;Ignaz-Wolf-Str. 55;Gräfenberg;91322;Bayern;NULL;NULL
+528;Schall;Irma;1963-5-19;Ulmenstraße 74;Fürth;90766;Bayern;286;NULL
+529;Dorner;Reinhardine;1966-10-16;Marktweg 39a;Hamburg;20148;Hamburg;NULL;NULL
+530;Kohnen;Asta;1963-11-10;Wentzelstraße 48;Aachen;52064;Nordrhein-Westfalen;NULL;NULL
+531;Gräf;Thiemo;1959-11-6;Borngäßchen 7;Peine;31224;Niedersachsen;NULL;NULL
+532;Ruß;Hannspeter;1960-5-14;Robert-Dißmann-Straße 54;Gütersloh;33311;Nordrhein-Westfalen;NULL;NULL
+533;Baumann;Giesela;1960-4-4;Synagogenplatz 96;Friedrichsthal;16306;Saarland;NULL;284
+534;Hummel;Cay;1968-6-28;Am Bergblick 11;Wehr;56653;Baden-Württemberg;NULL;NULL
+535;Janik;Milli;1967-5-22;Hildburghäuser Weg 24;Würzburg;97084;Bayern;266;NULL
+536;Börger;Grazyna;1959-4-17;An der Ölmühle 62;Malchin;17139;Mecklenburg-Vorpommern;NULL;NULL
+537;Bongartz;Madlen;1962-6-9;Falkenhainer Straße 51;Braunschweig;38106;Niedersachsen;269;230
+538;Emde;Sturmius;1959-11-29;Lister Weg 87;Vienenburg;38690;Niedersachsen;NULL;NULL
+539;Hoffmeister;Heiderich;1960-8-1;Papenhuder Straße 100;Dortmund;44225;Nordrhein-Westfalen;162;NULL
+540;Schier;German;1966-12-21;Laubanger 16;Werdau;08412;Sachsen;NULL;NULL
+541;Buhl;Treuhard;1968-3-24;Lothringer Weg 78;Berlin;13503;Berlin;NULL;NULL
+542;Wiese;Ilsetraut;1965-8-14;Beckerstraße 5b;Saalfeld/Saale;07318;Thüringen;NULL;NULL
+543;Kipp;Wittmar;1965-2-1;Brendelweg 20;Schrozberg;74575;Baden-Württemberg;358;322
+544;Morgenstern;Gustl;1963-4-24;Hermann-Waibel-Allee 53;Mühltroff;07919;Sachsen;NULL;NULL
+545;Michel;Wiglaf;1963-6-1;Ruth-Moufang-Straße 18;Ilmenau;98693;Thüringen;NULL;NULL
+546;Repp;Mathilde;1967-5-26;Hammer Weg 49;Pappenheim;91788;Bayern;155;181
+547;Zieger;Burga;1963-10-27;Altwölfnitz 88;Germersheim;76726;Rheinland-Pfalz;NULL;NULL
+548;Kürschner;Vanessa;1960-8-28;Korffstraße 88;Wiesbaden;65183;Hessen;NULL;87
+549;Storck;Siglind;1968-4-4;Wolfsbachweg 60;Waldkirch;79183;Baden-Württemberg;NULL;93
+550;Baumbach;Wolfrid;1964-2-18;Lerchenbergweg 78b;Büren;33142;Nordrhein-Westfalen;NULL;NULL
+551;Armbruster;Claudia;1963-5-30;Europaplatz 85;Arnsberg;59755;Nordrhein-Westfalen;NULL;NULL
+552;Greb;Babsi;1961-11-15;Am Pilz 40c;Essen;45259;Nordrhein-Westfalen;NULL;NULL
+553;Schönfelder;Friedmut;1960-2-15;Fischbacher Straße 11;Hannover;30539;Niedersachsen;193;NULL
+554;Thoms;Burghilde;1967-11-8;Johann-Meyer-Straße 57;Stutensee;76297;Baden-Württemberg;377;325
+555;Scheer;Adeltraud;1961-5-16;Atzelbergstraße 45;Salzgitter;38239;Niedersachsen;NULL;NULL
+556;Schmidt;Alida;1963-4-11;Dielmannstraße 77;Hoya;27318;Niedersachsen;NULL;NULL
+557;Springer;Urda;1963-10-22;Frankfurter Str. 58;Ludwigsfelde;14974;Brandenburg;NULL;190
+558;Grünewald;Dorette;1963-1-31;Steintordamm 79;Bergkamen;59192;Nordrhein-Westfalen;389;NULL
+559;Piller;Meral;1961-10-18;Josef-Manger-Str. 57;Berlin;13509;Berlin;NULL;NULL
+560;Horvath;Caterina;1965-7-25;Budapester Straße 77;Wilhelmshaven;26388;Niedersachsen;NULL;284
+561;Schult;Vreni;1965-6-18;Linkstraße 57c;Wiesbaden;65185;Hessen;241;235
+562;Hoffmeister;Ekkart;1959-8-15;Kunzer Marktweg 67;Wetter;35083;Hessen;162;NULL
+563;Gast;Rosina;1963-7-29;Hartmann-Ibach-Straße 56c;Hamburg;22393;Hamburg;NULL;NULL
+564;Dietz;Hannah;1962-2-15;An den Ruschewiesen 82;Neumark;08496;Thüringen;142;159
+565;Hemmer;Ingbert;1961-10-18;Fritz-Schreiter-Straße 69c;Riedenburg;93339;Bayern;NULL;190
+566;Rüther;Anett;1960-7-22;Carl-von-Noorden-Platz 73;Essen;45289;Nordrhein-Westfalen;NULL;NULL
+567;Schrage;Suse;1960-6-18;Am Putjatinpark 3;Bochum;44803;Nordrhein-Westfalen;NULL;NULL
+568;Zacharias;Magda;1966-11-26;Peter-Marquard-Straße 71;Riedenburg;93339;Bayern;NULL;NULL
+569;Linz;Rudenz;1964-3-29;Xaveriweg 98;Münster;48143;Nordrhein-Westfalen;232;NULL
+570;Börner;Meike;1960-7-15;Dorfmeistergasse 54a;Borken;46325;Hessen;NULL;NULL
+571;Niemeyer;Marzellus;1968-12-16;Clara-Schumann-Weg 47;Garbsen;30826;Niedersachsen;383;NULL
+572;Schreiber;Giesela;1968-6-16;Matthias-Claudius-Straße 67;Dinslaken;46535;Nordrhein-Westfalen;NULL;NULL
+573;Sonntag;Erdfried;1959-10-4;Lemkusweg 57;Herzberg;19374;Brandenburg;68;21
+574;Lenzen;Heidelinde;1968-9-10;Dantestraße 61;Essen;45141;Nordrhein-Westfalen;NULL;NULL
+575;Wittmann;Rimbert;1959-11-26;Reinhold-Schneider-Str. 13;Hamburg;21077;Hamburg;NULL;183
+576;Rohde;Siegharda;1966-9-20;Jakob-Leisler-Straße 87;Köln;50735;Nordrhein-Westfalen;264;246
+577;Rolf;Cläre;1959-4-25;Pferdskopfweg 84;Saarbrücken;66127;Saarland;NULL;190
+578;Steinkamp;Friedl;1966-1-14;Bleichanger 63;Darmstadt;64283;Hessen;387;NULL
+579;Stevens;Carmine;1967-9-25;Reuningstraße 58;Alsdorf;57518;Nordrhein-Westfalen;NULL;278
+580;Emde;Laurentius;1962-7-19;Bessie-Coleman-Straße 99;Langenfeld;40764;Nordrhein-Westfalen;386;NULL
+581;Senf;Gerdhild;1966-7-22;Feiersteigweg 98;Havelberg;39539;Sachsen-Anhalt;NULL;371
+582;Erben;Leonore;1960-6-7;Taubenheimer Straße 49;Balingen;72336;Baden-Württemberg;NULL;NULL
+583;Schaffer;Edelhard;1965-10-9;Michael-Proebstl-Weg 80;Paderborn;33104;Nordrhein-Westfalen;NULL;NULL
+584;Swoboda;Gisbert;1963-9-11;Heussenstammstraße 15;Nossen;01683;Sachsen;NULL;NULL
+585;Schacht;Inga;1965-10-13;Schuchstraße 28;Potsdam;14482;Brandenburg;299;276
+586;Repp;Herward;1965-5-22;Altpieschen 39;Geislingen;72351;Baden-Württemberg;342;334
+587;Dietz;Arnolf;1967-10-24;Waldwiesenstr. 15b;Hamburg;22547;Hamburg;142;159
+588;Grünewald;Gerfried;1963-12-30;Im Vogelsgesang 23;Schauenstein;95197;Bayern;389;NULL
+589;Bade;Reinold;1959-2-1;Am Campingplatz 10;Tharandt;01737;Sachsen;318;392
+590;Radermacher;Trudbert;1968-8-28;Sorbenstraße 40;Dillenburg;35688;Hessen;2;59
+591;Reis;Hartwin;1968-2-8;Zschierbachstraße 43;Wörrstadt;55286;Rheinland-Pfalz;352;325
+592;Dietz;Ellengard;1966-6-16;Stolzenbergstraße 88b;Wuppertal;42287;Nordrhein-Westfalen;142;169
+593;Oberländer;Ottfried;1966-9-9;Im Wiesengrund 66a;Haren;49733;Niedersachsen;NULL;NULL
+594;Kohl;Klotilde;1966-1-5;Pirnaer Straße 42a;Wilkau-Haßlau;08112;Sachsen;NULL;NULL
+595;Jehle;Karen;1959-4-25;Dresdner Straße 81;Jarmen;17126;Mecklenburg-Vorpommern;NULL;NULL
+596;Frost;Schwanhild;1962-8-18;Maternistraße 28b;Stuttgart;70193;Baden-Württemberg;NULL;NULL
+597;Rummel;Anouschka;1968-1-19;Reichenbacher Straße 33;Monschau;52156;Nordrhein-Westfalen;74;46
+598;Dieterich;Sissy;1961-11-24;Blauhandgasse 2;Schöppenstedt;38170;Niedersachsen;198;183
+599;Kistner;Hermine;1959-3-28;Girlitzweg 29;Düsseldorf;40625;Nordrhein-Westfalen;NULL;72
+600;Gutsche;Gustel;1968-8-9;Sebnitzer Straße 9c;Aurich;26603;Niedersachsen;NULL;NULL
+601;Kahle;Hartfried;1977-9-12;Gederner Straße 7;Marne;25709;Schleswig-Holstein;NULL;NULL
+602;Appelt;Ottfried;1973-4-13;Ginnheimer Stadtweg 34;Hamminkeln;46499;Nordrhein-Westfalen;NULL;NULL
+603;Dieterich;Diethelm;1969-5-30;Hainichener Straße 46;Eberswalde;16225;Brandenburg;NULL;NULL
+604;Frank;Nicole;1968-6-23;Seemüllerstr. 95;Stralsund;18439;Mecklenburg-Vorpommern;NULL;NULL
+605;Kalisch;Elizabeth;1970-3-3;Spreewalder Straße 28;Uetersen;25436;Schleswig-Holstein;NULL;284
+606;Helfrich;Lea;1973-5-8;Burgstallgasse 56c;Lörrach;79539;Baden-Württemberg;NULL;NULL
+607;Dietz;Walther;1974-8-10;Wilhelmshöher Straße 4;Nürnberg;90425;Bayern;142;159
+608;Hirschfeld;Lottelore;1973-7-10;Wingertstraße 57;Karben;61184;Hessen;NULL;NULL
+609;Knab;Giselher;1975-12-10;Paradiesgasse 75a;Ulm;89081;Baden-Württemberg;NULL;371
+610;Engelhard;Anna-Marie;1975-7-23;August-Wagner-Straße 71c;Grebenstein;34393;Hessen;NULL;NULL
+611;Wenzel;Inga;1968-12-22;Stoeckhardtstraße 49;Grafenau;71120;Bayern;NULL;NULL
+612;Huber;Egomar;1969-10-18;Hunsrückstraße 10;Bräunlingen;78199;Baden-Württemberg;NULL;NULL
+613;Griese;Janett;1973-9-8;Hauptwachstr. 6;Altenkirchen;66903;Rheinland-Pfalz;354;324
+614;Wiesner;Walther;1971-6-28;Am Heidebad 6;Elsterwerda;04910;Brandenburg;NULL;NULL
+615;Heinlein;Joschka;1976-10-13;Dimpfelbachstraße 9;Lünen;44536;Nordrhein-Westfalen;NULL;NULL
+616;Schumann;Dietolf;1970-3-3;Gravensteinerstraße 23a;Erlangen;91052;Bayern;NULL;271
+617;Weidmann;Abraham;1977-6-16;Helene-Lange-Straße 17;Mainz;55118;Rheinland-Pfalz;336;359
+618;Adam;Lilibeth;1974-1-12;Alexander-Riese-Weg 86;Walsrode;29664;Niedersachsen;NULL;NULL
+619;Gödecke;Dietbert;1975-3-25;Karl-Gerold-Platz 25;Essen;45307;Nordrhein-Westfalen;NULL;NULL
+620;Kammerer;Jonathan;1971-10-5;Robert-Sterl-Straße 94c;Düsseldorf;40233;Nordrhein-Westfalen;NULL;371
+621;Bender;Elsemarie;1970-12-3;Wittenberger Straße 10;Overath;51491;Nordrhein-Westfalen;249;NULL
+622;Weide;Thomas;1968-1-5;Wilschdorfer Landstraße 76;Berlin;13156;Berlin;496;447
+623;Dietz;Rosl;1975-10-3;Am Bahnhof 81a;Hannover;30451;Niedersachsen;142;159
+624;Rummel;Meinfried;1968-5-20;Sonnenbergstraße 59c;Stralsund;18435;Mecklenburg-Vorpommern;251;253
+625;Kasper;Georgine;1972-1-3;Schreiberstr. 75;Düsseldorf;40237;Nordrhein-Westfalen;NULL;NULL
+626;Schweiger;Leo;1970-8-13;Martino Carlone-Gasse 80;Wilkau-Haßlau;08112;Sachsen;NULL;NULL
+627;Weidmann;Schorsch;1972-3-15;Beim Soll 10;Pressath;92690;Bayern;336;359
+628;Daniel;Quirin;1975-8-16;An der Stadtmauer 100c;Arzberg;04886;Bayern;NULL;NULL
+629;Egger;Rosa-Maria;1974-2-5;Auf der Schanz 58;München;80337;Bayern;NULL;NULL
+630;Heine;Volkwart;1975-8-27;Rispenweg 12;Waldkappel;37284;Hessen;NULL;NULL
+631;Noe;Ruth;1974-7-15;Gonzenheimer Straße 64;Berlin;10715;Berlin;NULL;NULL
+632;Bosse;Wilhard;1972-1-1;Hohenstaufenstraße 28;Meiningen;98617;Thüringen;NULL;295
+633;Burkhardt;Adelgunde;1976-4-5;Goetzplatz 20;Essen;45147;Nordrhein-Westfalen;NULL;NULL
+634;Dietz;Adelbert;1976-2-10;Wiesentorstraße 66;Berlin;10713;Berlin;142;159
+635;Reiser;Nicola;1970-4-30;Dr. Robert Davy-Gasse 50;Deidesheim;67146;Rheinland-Pfalz;NULL;NULL
+636;Bongartz;Gernot;1977-2-12;Seegasse 18;Hannover;30655;Niedersachsen;269;230
+637;Püschel;Britta;1974-12-25;Dreistücken 82;Ratingen;40882;Nordrhein-Westfalen;NULL;NULL
+638;Feldmann;Reinfriede;1969-5-7;Koblenzer Straße 91;Colditz;04680;Sachsen;NULL;NULL
+639;Goldberg;Jannick;1968-10-4;Am Preßgrund 39;Gelsenkirchen;45886;Nordrhein-Westfalen;NULL;385
+640;Zacher;Sigune;1975-7-22;Trimbergstr. 39;Landshut;84028;Bayern;201;263
+641;Winkel;Eduardt;1971-1-16;Rudolf-Presber-Straße 99;Schwerin;19057;Mecklenburg-Vorpommern;175;NULL
+642;Volkmer;Thielo;1973-1-7;Robert-Matzke-Straße 9;Obertshausen;63179;Hessen;381;NULL
+643;Vaupel;Wolfhermann;1973-8-2;Ginsterstieg 20;Langenselbold;63505;Hessen;NULL;489
+644;Hackbarth;Michaela;1970-10-28;Ernst-Toller-Straße 58;Gummersbach;51647;Nordrhein-Westfalen;NULL;246
+645;Fox;Regelindis;1976-12-2;Am Schullwitzbach 26;Wuppertal;42103;Nordrhein-Westfalen;NULL;NULL
+646;Eichholz;Sieghard;1971-11-19;Tännichtweg 4;Blumberg;16356;Baden-Württemberg;288;NULL
+647;Griese;Clementine;1975-2-16;Doktor-Eisenbart-Hof 41;Eppelheim;69214;Baden-Württemberg;354;324
+648;Lotz;Kristina;1970-6-1;Konstantinstraße 94;Jerichow;39319;Sachsen-Anhalt;NULL;NULL
+649;Kelm;Hanskarl;1977-3-29;Innere Schneidmatten 25a;Erfurt;99084;Thüringen;NULL;NULL
+650;John;Caspar;1975-1-8;Hans-Loskant-Weg 46;Berlin;12209;Berlin;291;246
+651;Schultheiß;Telse;1970-8-19;Lorscher Straße 84b;Langenfeld;56729;Nordrhein-Westfalen;NULL;168
+652;Pfeiffer;Lotti;1973-11-11;Jahnstr. 75;Berlin;12163;Berlin;NULL;NULL
+653;Schall;Babett;1972-9-4;Ludwig-Ermold-Straße 22;Osnabrück;49080;Niedersachsen;286;NULL
+654;Seelig;Till;1971-8-22;Säugrundweg 92;Nassau;56377;Rheinland-Pfalz;NULL;NULL
+655;Nadler;Constanze;1976-12-9;Heilmannstraße 93b;Kraichtal;76703;Baden-Württemberg;NULL;NULL
+656;Breit;Hadubert;1969-4-18;Appeltwiete 2;Böhlen;98701;Sachsen;268;NULL
+657;Seeliger;Doritta;1976-10-23;Karl-Liebknecht-Straße 24;Vellmar;34246;Hessen;NULL;NULL
+658;Menke;Hilar;1974-2-18;Altsöbrigen 51;Meerbusch;40668;Nordrhein-Westfalen;NULL;NULL
+659;Zwick;Hannelore;1977-2-25;Kurt-Exner-Weg 46b;Bremen;28209;FreieHansestadtBremen;NULL;NULL
+660;Eibl;Rotger;1970-3-11;Haßbergestr. 40;Chemnitz;09114;Sachsen;488;419
+661;Springer;Evamarie;1970-2-24;Papyrusweg 58a;Schönberg;08393;Mecklenburg-Vorpommern;NULL;NULL
+662;Stach;Nunzius;1973-6-17;Elbeweg 5;Dresden;01324;Sachsen;NULL;NULL
+663;Stingl;Roswitha;1974-10-18;Robinienstraße 83;Hünfeld;36088;Hessen;350;NULL
+664;Arens;Meinulf;1971-9-17;Wernerplatz 64;Düsseldorf;40549;Nordrhein-Westfalen;NULL;NULL
+665;Reisch;Inge;1968-7-9;Elsa-Brändström-Straße 47;Ulm;89040;Baden-Württemberg;NULL;NULL
+666;Bongartz;Ann;1968-4-17;Dettmerstraße 25;Dortmund;44379;Nordrhein-Westfalen;269;230
+667;Habel;Bodo;1975-9-26;Leeraue 75b;Langenburg;74595;Baden-Württemberg;290;229
+668;Kutz;Reinhild;1972-9-8;Jacob-Schiff-Straße 83;Monschau;52156;Nordrhein-Westfalen;277;260
+669;Schäffer;Eddi;1973-6-2;Seegasse 42;Karlsruhe;76229;Baden-Württemberg;NULL;NULL
+670;Brauner;Mathias;1975-1-31;Teutoburgstraße 69b;Bendorf;56170;Rheinland-Pfalz;NULL;246
+671;Dieterich;Anneruth;1969-7-20;Am Keppschloß 99;Ummerstadt;98663;Thüringen;198;183
+672;Schimmelpfennig;Kareen;1972-11-16;Dora-Zschille-Straße 80;Gießen;35390;Hessen;305;390
+673;Orlowski;Frank;1976-5-30;Schwepnitzer Straße 92;Bremen;28211;FreieHansestadtBremen;NULL;NULL
+674;Schüssler;Raimar;1972-2-19;Konrad-Kreutzer-Straße 80b;Lünen;44536;Nordrhein-Westfalen;NULL;NULL
+675;Herzberg;Rosetraut;1973-7-5;Katharinenpforte 97;Schlettau;09487;Sachsen;188;111
+676;Meier;Felix;1969-12-22;Martin-Luther-Platz 79a;Lindenberg;17111;Bayern;NULL;NULL
+677;Schimmelpfennig;Rasso;1968-2-19;An der Bergkuppe 50;Hürth;50354;Nordrhein-Westfalen;305;390
+678;Völkel;Philip;1976-8-4;Kandelstraße 6;Münchenbernsdorf;07589;Thüringen;NULL;NULL
+679;Niemeyer;Friedmar;1975-11-3;Schwarzäderle 37;Sulzbach/Saar;66280;Saarland;383;NULL
+680;Schild;Markolf;1975-1-7;Thorwaldsenstraße 79;Laufenburg;79725;Baden-Württemberg;NULL;NULL
+681;Schult;Helfred;1976-10-16;Am Lockwitzbach 77;Hagen;58099;Nordrhein-Westfalen;241;235
+682;Wittmann;Wally;1969-1-23;Heinrich Bechtstraße 63;Oberkochen;73447;Baden-Württemberg;NULL;NULL
+683;Pelz;Jasmin;1972-2-1;Hübbesweg 20;Wustrow;17255;Niedersachsen;NULL;NULL
+684;Bender;Benjamin;1968-9-5;Podemuser Straße 8;Kassel;34130;Hessen;249;NULL
+685;Geiger;Veit;1976-1-6;Kreuzweg 33;Wilthen;02681;Sachsen;NULL;295
+686;Richter;Hartlieb;1972-6-11;Butznickelweg 3b;Würzburg;97070;Bayern;NULL;NULL
+687;Schley;Bernhardt;1971-2-9;Krochmannstraße 57a;Kelbra;06537;Sachsen-Anhalt;NULL;NULL
+688;Koslowski;Dietrich;1973-3-27;Trachenberger Straße 85;Alfeld;91236;Niedersachsen;228;260
+689;Bergmann;Justine;1971-5-6;Anwanderstr. 37;Werneuchen;16356;Brandenburg;NULL;NULL
+690;Garbe;Martine;1974-6-5;Fechenheimer Leinpfad 17;München;81547;Bayern;425;NULL
+691;Böck;Eunike;1977-1-23;Dornholzhäuser Straße 54;Hamburg;21073;Hamburg;NULL;183
+692;Maurer;Josef;1970-4-16;Franz-Bänsch-Straße 38;Berching;92334;Bayern;109;158
+693;Arndt;Sigmar;1977-8-26;Zachenweg 83;Bamberg;96047;Bayern;NULL;NULL
+694;Grunert;Wolfdieter;1972-1-4;Kanonikus-Schwab-Str. 77;Warendorf;48231;Nordrhein-Westfalen;NULL;NULL
+695;Schatz;Winrich;1974-1-11;Alttrachau 27;Groß-Umstadt;64823;Hessen;487;485
+696;Kirstein;Petra;1968-10-13;Zur Bockmühle 59;Hannover;30179;Niedersachsen;NULL;NULL
+697;Dieterich;Ruprecht;1971-4-2;Heinrich-Rößler-Straße 96;Hachenburg;57627;Rheinland-Pfalz;198;183
+698;Borchert;Marc;1972-1-8;Heiderandweg 55;Minden;32425;Nordrhein-Westfalen;NULL;NULL
+699;Pfeifer;Edeltraudt;1976-8-3;Donnersbergstraße 64;Dortmund;44357;Nordrhein-Westfalen;NULL;NULL
+700;Weyers;Altfried;1986-2-20;Roepersweg 61;Dorsten;46282;Nordrhein-Westfalen;351;335
+701;Kleinert;Hatto;1977-8-16;Höhenstr. 13;Hamburg;22081;Hamburg;NULL;NULL
+702;Bade;Bernd;1978-1-24;Fliederberg 3;Rieneck;97794;Bayern;318;392
+703;Tausch;Annika;1982-7-24;Gambrinusstraße 79;Engen;78234;Baden-Württemberg;443;421
+704;Steinkamp;Ruprecht;1978-6-13;Essener Straße 1;Lübz;19386;Mecklenburg-Vorpommern;578;596
+705;Radermacher;Berta;1982-4-27;Langhurst 61;Essen;45144;Nordrhein-Westfalen;590;561
+706;Repp;Susanne;1986-11-20;Hohe-Kreuz-Str. 85;Rinteln;31737;Niedersachsen;586;NULL
+707;Steinkamp;Annalene;1979-7-7;Spaldingstraße 43;Vellberg;74541;Baden-Württemberg;578;NULL
+708;Beermann;Luitpold;1985-11-4;Kiefernweg 63;Pocking;94060;Bayern;NULL;NULL
+709;Hummel;Klotilde;1984-3-3;Dorfelder Straße 94;Elmshorn;25337;Schleswig-Holstein;534;595
+710;Koslowski;Natalie;1982-5-30;Borsigbrücke 82;Rehna;19217;Mecklenburg-Vorpommern;228;260
+711;Kraemer;Sebastian;1983-7-4;Wichheimer Straße 86;Grünstadt;67269;Rheinland-Pfalz;NULL;NULL
+712;Kloth;Friedberg;1982-8-31;Am Estedeich 68c;Wetzlar;35578;Hessen;NULL;NULL
+713;Wölk;Gernulf;1983-11-7;Schlinkenweg 3;Ahaus;48683;Nordrhein-Westfalen;NULL;NULL
+714;Schönfelder;Konstanze;1982-9-14;Josef Reichl-Gasse 19;Oranienbaum;06785;Sachsen-Anhalt;368;335
+715;Gräf;Irmgarda;1978-6-1;Pfortengartenweg 76;Röttingen;97285;Bayern;531;NULL
+716;Speer;Bernhardt;1979-3-17;Sierksplatz 93;Windsbach;91575;Bayern;NULL;NULL
+717;Till;Fine;1977-6-3;Musikantenweg 51;Zella-Mehlis;98544;Thüringen;NULL;495
+718;Pickel;Wilgard;1980-8-28;Fritz-Löffler-Straße 91;Gebesee;99189;Thüringen;NULL;NULL
+719;Eichholz;Hertraud;1979-2-24;Semmelweisstraße 99;Ratingen;40882;Nordrhein-Westfalen;288;NULL
+720;Rummel;Anne-Katrin;1979-1-25;Stethaimerstr. 48a;Dresden;01465;Sachsen;251;253
+721;Repp;Theo;1986-10-29;Hubertusplatz 73;Wuppertal;42279;Nordrhein-Westfalen;586;NULL
+722;Rose;Krimhilde;1985-7-27;Niederhäslicher Weg 5;Leverkusen;51381;Nordrhein-Westfalen;NULL;497
+723;Sperl;Haimo;1981-2-23;Fritz-Schubert-Ring 6;Kassel;34134;Hessen;473;NULL
+724;Hummel;Harry;1986-12-1;Neubühlauer Straße 42;Schwedt/Oder;16303;Brandenburg;534;595
+725;Obermaier;Henrike;1983-10-14;Flüggestraße 21;Jever;26441;Niedersachsen;NULL;NULL
+726;Rücker;Ludmila;1981-6-15;Eichigtweg 93;Mannheim;68165;Baden-Württemberg;NULL;NULL
+727;Butz;Dorkas;1980-4-6;Hohmannstr. 95;Grabow;39291;Mecklenburg-Vorpommern;NULL;NULL
+728;Schumacher;Annegreth;1981-9-7;Dr.-Rattel-Str. 74;Halle;33790;Nordrhein-Westfalen;NULL;NULL
+729;Wiener;Sandy;1985-1-11;Alte Meißner Landstraße 16b;Offenburg;77656;Baden-Württemberg;NULL;NULL
+730;Linz;Eric;1982-5-12;Fechenheimer Leinpfad 14;Hildesheim;31137;Niedersachsen;569;505
+731;Rottmann;Timotheus;1984-5-12;Keßlerstr. 25;Villingen-Schwenningen;78052;Baden-Württemberg;238;NULL
+732;Rößner;Markward;1978-5-8;Lothringer Straße 16;Elsterwerda;04910;Brandenburg;NULL;NULL
+733;Lerch;Denis;1983-5-31;Adalbert-Stifter-Weg 96;Korntal-Münchingen;70825;Baden-Württemberg;NULL;NULL
+734;Krell;Sigbert;1986-8-30;Mercatorstraße 5;Bremen;28219;FreieHansestadtBremen;NULL;NULL
+735;Griese;Hardo;1986-11-15;Weberweg 16b;Düsseldorf;40597;Nordrhein-Westfalen;354;324
+736;Steinkamp;Suse;1977-12-31;Franziska-Kessel-Straße 23b;Magdeburg;39126;Sachsen-Anhalt;578;NULL
+737;Eichholz;Ferdinandus;1978-12-3;Auersreihe 91;Düsseldorf;40595;Nordrhein-Westfalen;288;NULL
+738;Hering;Kathleen;1980-11-9;Zwanzigerstraße 40;Zossen;15806;Brandenburg;NULL;495
+739;Wohlfarth;Jolanthe;1983-6-4;Groothoffgasse 74;Friedrichroda;99894;Thüringen;NULL;NULL
+740;Hummel;Gesche;1981-6-23;Im Triborn 1;Werder;19386;Brandenburg;534;595
+741;Tausch;Edelhard;1978-11-1;Kätcheslachpark 37c;Freudenberg;57258;Baden-Württemberg;443;421
+742;Schroer;Etta;1982-11-2;Wilhelm-Liebknecht-Straße 88;Mühlhausen;69242;Thüringen;NULL;NULL
+743;Sigl;Romy;1981-5-30;Bellevuebrücke 18c;Lommatzsch;01623;Sachsen;NULL;NULL
+744;Tausch;Madita;1977-7-25;Krifteler Straße 26;Putbus;18581;Mecklenburg-Vorpommern;443;485
+745;Schall;Isabelle;1982-7-25;Bankgasse 91;Marktoberdorf;87616;Bayern;286;NULL
+746;Kober;Sylvie;1983-12-14;Reversbrunnenweg 75;Düsseldorf;40210;Nordrhein-Westfalen;NULL;NULL
+747;Hopp;Diethardt;1977-11-2;Jägergasse 57;Wildeshausen;27793;Niedersachsen;NULL;385
+748;Niemeyer;Katerina;1982-6-13;Pastor-Dubbels-Weg 76b;Kaiserslautern;67663;Rheinland-Pfalz;383;NULL
+749;Linz;Herger;1986-11-30;Obere Karolinenstr. 6;Erlangen;91052;Bayern;232;NULL
+750;Merkle;Reintraud;1977-11-16;Ifflandstraße 4;Rostock;18146;Mecklenburg-Vorpommern;NULL;599
+751;Kappel;Hansfriedrich;1978-10-17;Magdeburger Weg 61;Korntal-Münchingen;70825;Baden-Württemberg;355;NULL
+752;Essig;Clivia;1986-12-22;Steinadlerweg 77;Gescher;48712;Nordrhein-Westfalen;NULL;NULL
+753;Schweizer;Wolfrid;1982-7-19;Pappelweg 41;Staßfurt;39418;Sachsen-Anhalt;NULL;NULL
+754;Osterloh;Petra;1986-10-26;Allerheiligenstraße 8a;Hartenstein;91235;Sachsen;NULL;NULL
+755;Sonntag;Herko;1980-11-12;Schlangenkoppel 21c;Düsseldorf;40474;Nordrhein-Westfalen;573;NULL
+756;Ott;Gernfried;1981-5-11;Reichenberger Straße 74a;Münsingen;72525;Baden-Württemberg;NULL;NULL
+757;Emrich;Alheid;1985-8-29;Silberstraße 80a;Berlin;12619;Berlin;NULL;585
+758;Schall;Wilhardt;1979-5-24;Heerstraße 11;Elzach;79215;Baden-Württemberg;286;NULL
+759;Fleck;Burghart;1983-10-6;Benzstraße 19a;Lörrach;79539;Baden-Württemberg;NULL;NULL
+760;Hunger;Dietolf;1981-12-1;Jean-Paul-Straße 78;Stadtlengsfeld;36457;Thüringen;NULL;NULL
+761;John;Dietwulf;1980-8-26;Siegener Straße 15c;Westerburg;56457;Rheinland-Pfalz;369;359
+762;Zacher;Dietwolf;1978-1-5;Im Dunster 20a;Bergen;08239;Niedersachsen;201;263
+763;Jablonski;Zita;1982-3-12;Rubensweg 68;Cottbus;03044;Brandenburg;NULL;NULL
+764;Bönisch;Winfrid;1979-7-19;Calvinstraße 4b;Witten;58454;Nordrhein-Westfalen;NULL;NULL
+765;Topp;Ekkardt;1985-1-13;Hermann-Conradi-Straße 24a;Darmstadt;64285;Hessen;NULL;NULL
+766;Niemeyer;Gottlob;1980-8-4;Steinbeker Hauptstraße 57;Baden-Baden;76530;Baden-Württemberg;383;NULL
+767;Steinkamp;Meike;1984-10-4;Wellengasse 70;Aulendorf;88326;Baden-Württemberg;578;596
+768;Kutz;Meinulf;1985-1-5;Wilder-Mann-Straße 10;Gladbeck;45968;Nordrhein-Westfalen;277;260
+769;Schüler;Anita;1985-11-9;Johanns Landweg 92;Chemnitz;09120;Sachsen;NULL;NULL
+770;Strobl;Hanno;1978-4-5;Bernd-Aldenhoff-Straße 24b;Tittmoning;84529;Bayern;NULL;NULL
+771;Rummel;Geza;1982-5-10;Horner Wegbrücke 18;Krempe;25361;Schleswig-Holstein;494;NULL
+772;Rauscher;Friedolin;1983-6-26;Rinnersteig 97;Berlin;13158;Berlin;279;NULL
+773;Schult;Yvonne;1977-12-1;Kapersburgstraße 13c;Wunsiedel;95632;Bayern;241;235
+774;Weidmann;Marieliese;1982-7-3;Georgstraße 51;Guben;03172;Brandenburg;336;357
+775;Strobl;Fini;1979-11-24;Gostritzer Weg 12;Osthofen;67574;Rheinland-Pfalz;NULL;NULL
+776;Baumann;Aleksandra;1986-5-24;Köhlerweg 95;Treuchtlingen;91757;Bayern;NULL;295
+777;Mey;Victoria;1978-12-22;Hammeraue 79;Bochum;44894;Nordrhein-Westfalen;393;349
+778;Waldmann;Clivia;1984-2-9;Steuernagelstraße 88b;Lichtenau;77839;Baden-Württemberg;NULL;NULL
+779;Straub;Arnt;1978-1-6;Erich-Ollenhauer-Ring 70a;Berlin;10405;Berlin;NULL;NULL
+780;Mey;Gundhard;1980-2-28;Herborner Straße 30;Fürstenwalde/Spree;15517;Brandenburg;393;349
+781;John;Godo;1983-5-9;Hammanstraße 55;Schwaan;18258;Mecklenburg-Vorpommern;291;246
+782;Willms;Eik;1981-4-25;Alois Tomasini-Gasse 26b;Altenkirchen;66903;Rheinland-Pfalz;NULL;NULL
+783;Engl;Friedolf;1977-10-15;Pfeiferstraße 47;Stuttgart;70563;Baden-Württemberg;NULL;371
+784;Radermacher;Gernfried;1984-6-16;Bunsenstraße 7;Gröditz;01609;Sachsen;590;561
+785;Hummel;Gundhart;1986-1-6;Stadtweg 81;Magdeburg;39104;Sachsen-Anhalt;534;NULL
+786;Fey;Undine;1982-7-22;Merkenstraße 90c;Düsseldorf;40237;Nordrhein-Westfalen;NULL;585
+787;Häfner;Vincenz;1986-9-18;Hanfftsweg 39;Berlin;12057;Berlin;NULL;NULL
+788;Kögler;Lena;1986-11-7;Breitenauer Straße 68b;Dortmund;44289;Nordrhein-Westfalen;NULL;NULL
+789;Linz;Friderike;1982-4-7;Heigenbrücker Weg 44;Herbrechtingen;89542;Baden-Württemberg;569;505
+790;Tauber;Lottemaria;1985-12-6;Amaliestraße 85a;Bergneustadt;51702;Nordrhein-Westfalen;NULL;NULL
+791;Wolfram;Hannmeike;1977-8-6;Seewiesenstr. 35a;Bremerhaven;27572;FreieHansestadtBremen;NULL;371
+792;Bösch;Anne-Kathrin;1983-8-1;Quäkerplatz 26;Plauen;08525;Sachsen;NULL;NULL
+793;Stocker;Kreszentia;1982-3-5;Jüngststraße 6;Velbert;42553;Nordrhein-Westfalen;378;309
+794;Scherf;Xaver;1977-4-24;Lindenheim 66b;Hamburg;22339;Hamburg;NULL;NULL
+795;Plate;Erhardt;1984-11-9;Ludwig-Erhard-Anlage 38;Werben;03096;Sachsen-Anhalt;298;NULL
+796;Lange;Frieder;1986-5-3;Daseweg 19;Halle;06116;Nordrhein-Westfalen;NULL;NULL
+797;Peitz;Cäcilie;1977-1-16;Adolph-Prior-Straße 40;Neckarsteinach;69239;Hessen;NULL;NULL
+798;Bley;Wilhard;1985-5-9;Senftenberger Straße 25;Geislingen;72351;Baden-Württemberg;NULL;NULL
+799;Matthies;Nordrun;1977-7-24;Oberlindau 9;Friedrichsthal;99735;Saarland;NULL;NULL
+800;Gräf;Eduard;1995-10-4;Bellevuebrücke 91;Püttlingen;66346;Saarland;531;NULL
+801;Rempel;Sieghardt;1987-11-7;Im Dörner 44b;Berlin;10435;Berlin;NULL;NULL
+802;Häußler;Friedhardt;1993-6-28;Königsbrücker Landstraße 25;Altlandsberg;15345;Brandenburg;NULL;NULL
+803;Klingler;Curt;1994-10-18;Rückertstraße 77;Haren;49733;Niedersachsen;NULL;484
+804;Erler;Raimar;1990-6-23;Hongkongkehre 81;Schweinfurt;97421;Bayern;NULL;653
+805;Frick;Reinwald;1990-3-12;Porgesring 92b;Konz;54329;Rheinland-Pfalz;NULL;NULL
+806;Bachmann;Heidegard;1989-6-13;Hakenweg 40c;Mainburg;84048;Bayern;NULL;NULL
+807;Radermacher;Schorsch;1988-1-21;Prieststraße 73;Berlin;14169;Berlin;590;561
+808;Weigel;Silvester;1993-12-26;Knivsbergweg 97;Stuttgart;70437;Baden-Württemberg;NULL;385
+809;Gentner;Ehrenfried;1986-10-4;Johann Nepomuk Hummel-Weg 23;Bielefeld;33617;Nordrhein-Westfalen;NULL;NULL
+810;Kipp;Manfried;1991-2-20;Peter-Link-Str. 60;Oberhausen;82386;Nordrhein-Westfalen;358;322
+811;Kipp;Griseldis;1992-8-31;Rombergstraße 85;Freudenberg;97896;Baden-Württemberg;358;322
+812;Preuß;Lotte;1990-3-27;Cohausenstraße 29;Neumünster;24537;Schleswig-Holstein;NULL;NULL
+813;Steinkamp;Silja;1992-8-15;Riederhofstraße 7;Strasburg;17335;Mecklenburg-Vorpommern;578;596
+814;Brust;Fadime;1988-2-23;Wiesensteig 24;Xanten;46509;Nordrhein-Westfalen;NULL;NULL
+815;Franke;Catherine;1994-1-11;Zollnerstr. 70;Bergheim;50129;Nordrhein-Westfalen;NULL;NULL
+816;Metzger;Sigi;1991-2-25;Lippersdorfer Weg 81b;Würzburg;97076;Bayern;NULL;NULL
+817;Schreiber;Marie-Louise;1990-5-3;Vogesenstraße 14a;Hamburg;22085;Hamburg;NULL;NULL
+818;Rickert;Kläre;1989-12-7;Philippsruher Straße 48;Meppen;49716;Niedersachsen;NULL;NULL
+819;Rausch;Ingowart;1992-4-25;Schottweg 100;Ruhland;01945;Brandenburg;NULL;NULL
+820;Appelt;Klothildis;1986-8-5;Kählerstraße 80;Plauen;08525;Sachsen;602;631
+821;Geis;Gunnar;1991-12-26;Otto-Mohr-Straße 4;Suhl;98528;Thüringen;434;428
+822;Ketterer;Adam;1993-10-18;Affentorplatz 98c;Emden;26721;Niedersachsen;NULL;NULL
+823;Trost;Lily;1995-6-17;Am Eiswurmlager 89a;Berlin;10587;Berlin;NULL;661
+824;Emde;Sieghardt;1995-7-20;Seilergasse 92;Bretten;75015;Baden-Württemberg;580;576
+825;Wollny;Waldemar;1995-6-4;Elsterwerdaer Straße 93c;Mühlhausen;92360;Thüringen;NULL;NULL
+826;Voit;Gabriella;1991-5-13;Hauptwachstr. 52;Hamburg;21077;Hamburg;480;NULL
+827;Steinkamp;Waldtraud;1989-3-10;Ekhofstraße 4;Erding;85435;Bayern;578;596
+828;Schult;Margrit;1991-1-20;Wurmbachstraße 87;Stutensee;76297;Baden-Württemberg;681;NULL
+829;Radermacher;Lindhilde;1992-3-22;Windmühlberggasse 85;Hitzacker;29456;Niedersachsen;NULL;599
+830;John;Larissa;1991-5-18;Kaufbacher Weg 89;Hamburg;22589;Hamburg;369;359
+831;Pöschl;Arne;1989-7-16;Josef Hyrtlgasse 96;Teterow;17166;Mecklenburg-Vorpommern;NULL;NULL
+832;Wulf;Nermin;1994-1-5;Roitzscher Landstraße 85;Nordhorn;48527;Niedersachsen;NULL;NULL
+833;Hein;Altraud;1992-2-19;Elebeken 43;Essen;45355;Nordrhein-Westfalen;NULL;NULL
+834;Michel;Waldemar;1986-3-19;Abflugring 33;Homberg;67744;Hessen;545;NULL
+835;Thomann;Eberhardt;1994-8-9;Herxheimerstraße 64;Oberhausen;82386;Nordrhein-Westfalen;NULL;NULL
+836;Schaffer;Helwin;1993-10-28;Kegelbahn 96c;Berlin;13055;Berlin;583;521
+837;Radermacher;Hansfriedrich;1993-10-11;Eilenau 26;Chemnitz;09116;Sachsen;590;561
+838;Steinkamp;Ingolf;1986-9-16;Wilhelm-Lehmbruck-Straße 48;Bergen;83346;Niedersachsen;578;596
+839;Berg;Anouschka;1989-10-17;Weistropper Weg 70;Buxtehude;21614;Niedersachsen;NULL;NULL
+840;Hummel;Boris;1993-12-9;Kleinlugaer Straße 85;Berlin;10553;Berlin;534;595
+841;Staudinger;Gotthold;1988-8-11;Dinkelkamp 5;Stuttgart;70193;Baden-Württemberg;NULL;NULL
+842;Endres;Rosina;1993-5-28;Am Mispelbusch 38;Moers;47445;Nordrhein-Westfalen;NULL;371
+843;Heinecke;Karolin;1995-5-16;Blumengasse 29;Dargun;17159;Mecklenburg-Vorpommern;NULL;NULL
+844;Mayerhofer;Nordfried;1988-9-30;Bei der Hauptfeuerwache 58;Florstadt;61197;Hessen;NULL;493
+845;Nebel;Egidius;1992-1-2;Hartungstraße 55;Ehingen;86678;Baden-Württemberg;NULL;NULL
+846;Sebastian;Josua;1986-8-24;Heinrich Bechtstraße 68;Hemmoor;21745;Niedersachsen;NULL;NULL
+847;Homann;Lilly;1991-12-11;Stauffenbergstr. 74b;Beverungen;37688;Nordrhein-Westfalen;NULL;NULL
+848;Leipold;Katja;1990-7-6;Hertha-Lindner-Straße 53;Uebigau-Wahrenbrück;04924;Brandenburg;NULL;NULL
+849;Schüssler;Mirjana;1988-7-18;Steinbeker Weg 12c;Uetersen;25436;Schleswig-Holstein;674;NULL
+850;Mühlbauer;Annelen;1993-2-11;Emdener Straße 72;Gummersbach;51647;Nordrhein-Westfalen;NULL;NULL
+851;Lambertz;Bodmar;1995-9-21;Ackerweg 14b;Solingen;42699;Nordrhein-Westfalen;NULL;NULL
+852;Rosenbaum;Gisela;1993-2-11;Klotzscher Berglehne 5;Aken;06385;Sachsen-Anhalt;NULL;NULL
+853;Schütt;Annehild;1991-12-27;Haenel-Clauß-Straße 7a;Hannover;30163;Niedersachsen;NULL;NULL
+854;Hopp;Waldfriede;1986-11-5;Konrad-Duden-Weg 24;Homburg;66424;Saarland;NULL;NULL
+855;Mehl;Gerlind;1986-4-23;Kellerring 8;Herzogenrath;52134;Nordrhein-Westfalen;NULL;NULL
+856;Gehring;Marcel;1989-3-23;Johannes-Brahms-Straße 27c;München;81373;Bayern;NULL;NULL
+857;Tausch;Lois;1988-3-20;Stolpener Straße 2;Fürstenberg;37699;Brandenburg;443;421
+858;Welter;Dieterich;1987-1-5;Huttenstraße 34;Veringenstadt;72519;Baden-Württemberg;NULL;NULL
+859;Gronau;Ferfried;1991-1-15;Gleinaer Straße 37;Mittweida;09648;Sachsen;NULL;484
+860;Ringel;Eckhart;1990-2-15;Ulmenweg 69;Düsseldorf;40477;Nordrhein-Westfalen;NULL;NULL
+861;Hummel;Margitte;1994-8-28;Washingtonallee 61;Darmstadt;64297;Hessen;534;NULL
+862;Bosse;Emine;1991-4-26;Weckmarkt 36;Lemgo;32657;Nordrhein-Westfalen;632;638
+863;Sperl;Nikodemus;1991-5-29;Fuchsweg 41;Mendig;56743;Rheinland-Pfalz;473;NULL
+864;Schatz;Miriam;1989-8-12;Falkenhainer Straße 53;Kassel;34117;Hessen;487;485
+865;Milde;Gotthardt;1990-10-22;Friedewalder Weg 71;Aken;06385;Sachsen-Anhalt;NULL;489
+866;Schatz;Alf;1987-4-29;Im Staffel 52;Altenkirchen;18556;Rheinland-Pfalz;487;485
+867;Seemann;Florentius;1990-10-12;Gewerbegasse 85c;Münnerstadt;97702;Bayern;NULL;NULL
+868;Liese;Jaqueline;1988-9-16;Huthmacherstraße 6;Ludwigsburg;71634;Baden-Württemberg;NULL;NULL
+869;Althoff;Frowine;1990-2-1;Manshardtstraße 8;Rosenheim;83024;Bayern;NULL;NULL
+870;Weide;Mark;1987-1-27;Hachenburger Straße 68;Wilhelmshaven;26382;Niedersachsen;496;447
+871;Zauner;Leo;1994-9-10;Karl-Laux-Straße 61;Wuppertal;42281;Nordrhein-Westfalen;NULL;NULL
+872;Rummel;Haug;1994-11-6;Dammhauser Straße 90b;Köln;50667;Nordrhein-Westfalen;494;NULL
+873;Sperl;Gitte;1990-4-3;Härtleinstr. 51;Itzehoe;25524;Schleswig-Holstein;473;NULL
+874;Kuhr;Margareta;1989-12-11;Tannenkopfweg 58;Sulzburg;79295;Baden-Württemberg;NULL;682
+875;Schmidbauer;Wolrad;1991-10-15;Schwarze Straße 54;Schleiz;07907;Thüringen;NULL;NULL
+876;Repp;Hadburg;1989-8-11;Hugo-Eckener-Ring 40;Berlin;14169;Berlin;342;334
+877;Michel;Beatrice;1993-6-8;Holunderweg 69b;Bonn;53111;Nordrhein-Westfalen;545;NULL
+878;Mey;Ignazia;1991-5-8;Rennplatzstraße 53;Lampertheim;68623;Hessen;393;349
+879;Meinhardt;Nikodem;1989-4-30;Moritzschachtstraße 97;Pfreimd;92536;Bayern;NULL;NULL
+880;Roll;Zilli;1995-7-4;Peter-Vischer-Straße 36a;München;81245;Bayern;NULL;NULL
+881;Steinkamp;Elgine;1988-8-8;Stübelallee 61;Stuttgart;70565;Baden-Württemberg;578;NULL
+882;Kutz;Margrid;1989-10-12;Oppauer Weg 70;Berlin;14199;Berlin;NULL;NULL
+883;Hörmann;Marlit;1991-6-30;Höhenstraße 97;Laatzen;30880;Niedersachsen;NULL;370
+884;Claus;Linde;1986-11-7;Vogelbeerenweg 35;Böblingen;71034;Baden-Württemberg;NULL;NULL
+885;Königs;Erfried;1992-1-18;Ulmenweg 94;Weißenstadt;95163;Bayern;NULL;NULL
+886;Schnelle;Swantje;1995-10-19;Parkweg 59;Schönberg;94513;Mecklenburg-Vorpommern;NULL;NULL
+887;Siemer;Gottwald;1994-9-20;An der Berglehne 42;Olfen;59399;Nordrhein-Westfalen;NULL;NULL
+888;Lenk;Friedeburg;1990-9-22;Nidderauer Straße 11c;Berlin;10629;Berlin;NULL;NULL
+889;Hirsch;Herald;1991-3-17;Am Rütschlehen 63;Altenkirchen;66903;Rheinland-Pfalz;NULL;NULL
+890;Stocker;Georg;1993-12-1;Altweixdorf 42c;Albstadt;72459;Baden-Württemberg;378;309
+891;Reichl;Oswald;1988-5-31;Sultanstraße 79;Werl;59457;Nordrhein-Westfalen;NULL;NULL
+892;Sperber;Falko;1995-11-28;An der Chaussee 30c;Obermoschel;67823;Rheinland-Pfalz;NULL;NULL
+893;Große;Marietraud;1994-1-31;Balthasargäßchen 81;Sundern;59846;Nordrhein-Westfalen;NULL;NULL
+894;Speicher;Edeltraudt;1989-1-12;Sandäckerweg 94;Göttingen;37081;Niedersachsen;NULL;NULL
+895;Bucher;Hedy;1989-7-28;Höltystraße 72c;Falkenstein;67808;Sachsen;NULL;NULL
+896;Landmann;Elzbieta;1989-7-12;Gustavsallee 72;Mühlhausen;92360;Thüringen;NULL;NULL
+897;Thoms;Paula;1989-6-12;Auerspitzstr. 52;Schwabach;91126;Bayern;377;325
+898;Hunger;Effi;1992-5-10;Borthener Straße 23;Dresden;01465;Sachsen;NULL;NULL
+899;Steinkamp;Klothildis;1992-1-10;Friedersdorfer Waldweg 17;Hamburg;22761;Hamburg;578;596
+900;Hopp;Eckart;2001-4-22;Sierichstraße 68;Wriezen;16269;Brandenburg;747;776
+901;Radermacher;Arno;2003-8-20;Franz-Gruber-Str. 60;Pausa;07952;Sachsen;784;726
+902;Pape;Annekristin;1995-5-27;Mundsburger Damm 72;Senden;48308;Bayern;NULL;NULL
+903;Dürr;Oskar;1998-10-4;Wilhelm-Flögel-Ring 94b;Paderborn;33106;Nordrhein-Westfalen;NULL;NULL
+904;John;Friedwin;2000-1-27;Schwanheimer Bahnstraße 39;Jülich;52428;Nordrhein-Westfalen;459;447
+905;John;Heidy;1997-12-11;Parsevalstraße 54;Lage;32791;Nordrhein-Westfalen;459;447
+906;Linz;Gerta;2003-8-7;Waldfriedstraße 55c;Düsseldorf;40231;Nordrhein-Westfalen;730;739
+907;Dieterle;Fridegund;1995-6-22;Estebrügger Straße 60;Nortorf;24589;Schleswig-Holstein;NULL;NULL
+908;Rüter;Friedmuth;1996-10-5;Maria-Louisen-Brücke 86;Pforzheim;75177;Baden-Württemberg;NULL;675
+909;Schatz;Nadia;1998-8-8;Mirabellenweg 92;Müncheberg;15374;Brandenburg;487;485
+910;Ludwig;Rositta;1999-3-7;Seezeile 53;Elbingerode;37412;Sachsen-Anhalt;NULL;NULL
+911;Schwarze;Ehrentraud;2004-2-29;Teplitzer Straße 83;Mönchengladbach;41236;Nordrhein-Westfalen;471;NULL
+912;Niehoff;Achaz;1999-3-10;Billstedter Mühlenweg 10;Harburg;86655;Bayern;NULL;774
+913;Tausch;Reingard;2001-1-25;Liliencronstraße 41;Peine;31228;Niedersachsen;443;421
+914;Weishaupt;Anemone;1996-3-30;Kopischstr. 15;Dorsten;46282;Nordrhein-Westfalen;NULL;NULL
+915;Gold;Sophie;2001-5-16;Fürstenbergallee 69;Rüthen;59602;Nordrhein-Westfalen;NULL;NULL
+916;Weisser;Ludger;2003-5-18;Klotzscher Weg 3c;Cottbus;03052;Brandenburg;NULL;NULL
+917;Leibold;Sieghilde;2003-12-19;Max-Bromme-Steig 6;Lunzenau;09328;Sachsen;NULL;773
+918;Bosse;Jolanta;1995-9-1;Betriebsstraße 93;Lüdenscheid;58509;Nordrhein-Westfalen;632;638
+919;Schauer;Alexandra;1997-3-21;Hannah-Arendt-Straße 28;Altensteig;72213;Baden-Württemberg;NULL;NULL
+920;Schiele;Emil;1999-8-4;Daenser Weg 60;Wolfenbüttel;38281;Niedersachsen;NULL;NULL
+921;Veit;Elsa;1996-5-22;Novalisweg 71c;Gundelsheim;74831;Baden-Württemberg;NULL;NULL
+922;Marquardt;Reiner;2002-8-17;Winterhuder Brücke 66b;Wetzlar;35583;Hessen;NULL;NULL
+923;Pesch;Engelmar;2001-3-23;Steinbeker Markt 47a;Ladenburg;68526;Baden-Württemberg;NULL;NULL
+924;Poth;Vinzent;2003-9-17;Linke Steinzeile 51b;Waldershof;95679;Bayern;NULL;NULL
+925;Steinkamp;Madeleine;2000-6-5;Innere Löwenstr. 60b;Zwickau;08056;Sachsen;578;NULL
+926;Hummel;Bernadine;1995-6-25;Friedberger Tor 6b;Güsten;39439;Sachsen-Anhalt;534;NULL
+927;Leopold;Klaudius;1997-11-17;Peter-Zenger-Straße 72;Duisburg;47139;Nordrhein-Westfalen;NULL;NULL
+928;Habel;Willy;1997-8-17;Dietrich-Bonhoeffer-Weg 8;Otterberg;67697;Rheinland-Pfalz;462;428
+929;Reiner;Harry;1998-11-21;Dietesheimer Straße 35;Elmshorn;25335;Schleswig-Holstein;NULL;NULL
+930;Spielmann;Wolfhard;1999-7-4;Schenkendorfstraße 91;Schleswig;24837;Schleswig-Holstein;NULL;NULL
+931;Eichholz;Marinette;2000-8-3;Neue Terrasse 70;Dortmund;44328;Nordrhein-Westfalen;737;746
+932;Eibl;Aloysia;2001-6-21;Bathgartenweg 82;Lüneburg;21339;Niedersachsen;488;419
+933;Grahl;Maria-Luise;2002-7-9;Hollerkopfstraße 92;Dillenburg;35685;Hessen;NULL;NULL
+934;Böckmann;Ludger;2004-2-17;Theodor-Fontane-Straße 62;Gräfenberg;91322;Bayern;NULL;NULL
+935;Martini;Hatto;1995-7-30;Sandbodenweg 85;Ortenberg;63683;Hessen;NULL;NULL
+936;Winkel;Anne;1996-7-30;Hans-Otto-Weg 53;Zörbig;06780;Sachsen-Anhalt;641;671
+937;Linz;Katherina;2003-9-2;Döbelner Straße 31;Triptis;07819;Thüringen;569;505
+938;Hummel;Betty;1995-8-9;Hans-Kobald-Weg 56;Roth;57539;Bayern;534;595
+939;Repp;Evelinde;1998-3-15;Georgenstr. 77a;Golßen;15938;Brandenburg;586;NULL
+940;Büsing;Loisl;2003-1-13;Stader Straße 14;Stuttgart;70469;Baden-Württemberg;NULL;NULL
+941;Wiener;Bartosch;2003-4-4;Bodenstedtstraße 25;Herne;44649;Nordrhein-Westfalen;NULL;NULL
+942;Goldberg;Hilda;1997-6-18;Heinrich-Kegelmann-Weg 82b;Quedlinburg;06484;Sachsen-Anhalt;639;663
+943;Hummel;Petra;1999-2-21;Am Güterbahnhof 99;Bochum;44879;Nordrhein-Westfalen;534;NULL
+944;Orth;Andreas;1997-9-9;Marie-Hankel-Straße 82;Wolfsburg;38444;Niedersachsen;NULL;493
+945;Plate;Anemone;1995-8-12;Diaminstraße 73;Berlin;10779;Berlin;795;728
+946;Willms;Connie;1995-6-27;Saxoniastraße 85;Berlin;13189;Berlin;782;NULL
+947;Tausch;Daniel;2003-3-23;Katharinenstr. 75;Hamburg;22399;Hamburg;741;793
+948;Rummel;Doris;1999-12-1;Bülaustraße 12;Kiel;24148;Schleswig-Holstein;494;NULL
+949;Locher;Eduard;1996-8-12;Calvinstraße 19;Berlin;13156;Berlin;NULL;NULL
+950;Mönch;Aynur;1995-4-15;Stauffenbergallee 53;Riesa;01587;Sachsen;NULL;NULL
+951;Völkel;Hugo;2001-12-24;Braubachstraße 24b;Kevelaer;47627;Nordrhein-Westfalen;678;NULL
+952;Gödecke;Ursus;1995-9-28;Freitaler Straße 54;Papenburg;26871;Niedersachsen;619;657
+953;Bosse;Hansdieter;2000-1-12;Im Heidenfeld 90;Göppingen;73033;Baden-Württemberg;632;638
+954;Garbe;Ulfrida;1998-9-22;Röntgenstr. 50;Fulda;36037;Hessen;425;NULL
+955;Dürr;Elfrun;1998-3-25;Saalgasse 17;Hitzacker;29456;Niedersachsen;NULL;789
+956;Borchert;Oskar;2000-5-2;Alfred-Thiele-Straße 22;Hamburg;20255;Hamburg;698;605
+957;Sandner;Heidegunde;1998-7-13;Magdeburger Weg 78;Wetzlar;35586;Hessen;NULL;NULL
+958;Schade;Evamaria;1999-6-18;Hendrichstraße 23;Medebach;59964;Nordrhein-Westfalen;NULL;NULL
+959;Habel;Telse;1996-1-12;Klaus-Mann-Platz 99;Aalen;73432;Baden-Württemberg;462;428
+960;Linz;Annekatrin;2001-7-8;Altdölzschen 84c;Achim;28832;Niedersachsen;569;505
+961;Ackermann;Friedegunde;1995-11-19;Zentgrafenstraße 76a;Bremen;28213;FreieHansestadtBremen;NULL;NULL
+962;Hummel;Andree;1997-9-13;Lockwitzbachweg 5;Friedrichsthal;16515;Saarland;534;NULL
+963;Tews;Walfriede;1997-12-4;Arno-Holz-Allee 54;Dortmund;44143;Nordrhein-Westfalen;NULL;NULL
+964;Fleck;Jessica;2001-7-28;Am Schneckenberg 84;Schwarzenborn;54533;Hessen;759;NULL
+965;John;Roselotte;1997-12-30;Marienberger Straße 8a;Engen;78234;Baden-Württemberg;459;447
+966;Schult;Hadmut;2002-3-2;Gottleubaer Straße 65;Kassel;34117;Hessen;681;NULL
+967;Winkel;Hartwin;2001-3-4;Eichendorffplatz 96;Netzschkau;08491;Sachsen;641;671
+968;Brauner;Otheinrich;1998-5-30;Volpenhennstraße 33;Meschede;59872;Nordrhein-Westfalen;670;NULL
+969;Geiger;Irmentraud;2002-3-7;An der Glinder Au 80;Falkenberg;84326;Brandenburg;685;NULL
+970;Saß;Erk;1998-12-18;Münchberger Str. 59;Lübtheen;19249;Mecklenburg-Vorpommern;NULL;754
+971;Eder;Tamara;2000-3-10;Arthur-Weineck-Straße 68;Uslar;37170;Niedersachsen;NULL;NULL
+972;Wiest;Quirin;1995-9-20;Pfarrwiese 80b;Belgern;04874;Sachsen;NULL;675
+973;Schüle;Radegundis;1997-10-31;Julius-Scholtz-Straße 100;Nürnberg;90459;Bayern;NULL;NULL
+974;Niemeyer;Siegbritta;1997-3-22;Buchgrabenweg 48;Bremen;28755;FreieHansestadtBremen;766;NULL
+975;Appelt;Gotelind;1997-3-7;Bergweg 82;Dorsten;46286;Nordrhein-Westfalen;602;631
+976;Voigtländer;Reginhardt;1999-3-2;Hans-Jakob-Straße 66b;Hamburg;22085;Hamburg;NULL;NULL
+977;Ihle;Ehrentraut;2003-3-17;Steinritzstraße 33;Berlin;12587;Berlin;429;NULL
+978;Döring;Jens;2004-10-4;Obere Gasse 81;Mosbach;74821;Baden-Württemberg;NULL;774
+979;Menz;Hansjoachim;1999-1-26;Kolbenbergstraße 42;Ebersberg;85560;Bayern;NULL;NULL
+980;Philippi;Dahlia;2000-10-7;Mansfelder Straße 33;Gudensberg;34281;Hessen;NULL;NULL
+981;Rösner;Wendelin;2000-6-4;Gudehusstraße 93;Berlin;14169;Berlin;NULL;NULL
+982;Schreyer;Hatto;1995-6-3;Dalbergstraße 20;Hildesheim;31141;Niedersachsen;NULL;NULL
+983;Kohnen;Eckert;2003-11-16;Awarenweg 52;Oberkochen;73447;Baden-Württemberg;NULL;NULL
+984;Gräf;Hansfried;2002-5-2;An der Este 29;Leipzig;04349;Sachsen;531;NULL
+985;Böning;Dorit;1998-8-12;Bielatalweg 62b;Geisa;36419;Thüringen;NULL;NULL
+986;Bade;Evi;1996-2-29;Quirinsstraße 55a;Recklinghausen;45659;Nordrhein-Westfalen;702;744
+987;Biedermann;Denis;2002-9-6;Randsiedlung 28;Düsseldorf;40217;Nordrhein-Westfalen;NULL;NULL
+988;Stamm;Fidelius;1999-11-19;Winzerstraße 13;Ratingen;40880;Nordrhein-Westfalen;NULL;NULL
+989;Faller;Sybille;1999-10-14;Kapuzinerstr. 93b;Roßleben;06571;Thüringen;NULL;NULL
+990;Nowack;Hanny;1995-10-20;Marie-Juchacz-Straße 89;Ingolstadt;85057;Bayern;NULL;497
+991;Repp;Sybill;2003-4-18;Ifflandstraße 13;Doberlug-Kirchhain;03253;Brandenburg;586;NULL
+992;Michel;Bernhart;2002-5-25;Niederhäslicher Weg 56;Hanau;63456;Hessen;545;NULL
+993;Wilk;Richard;1997-3-6;Aachener Straße 36a;Weißenberg;02627;Sachsen;NULL;774
+994;Mehnert;Arwin;1999-12-22;Güterplatz 22;Menden;58706;Nordrhein-Westfalen;NULL;NULL
+995;Eibl;Ildiko;2002-11-16;Gemündener Straße 13;Königsee;07426;Thüringen;660;631
+996;Tausch;Enrico;1998-8-27;Elisabethenplatz 58;Köln;51143;Nordrhein-Westfalen;NULL;NULL
+997;Guhl;Burghart;2003-4-23;Melemstraße 95;München;81829;Bayern;NULL;NULL
+998;Dörner;Berta;2002-4-1;Schildstr. 19c;Hattingen;45529;Nordrhein-Westfalen;NULL;NULL
+999;Seewald;Kajetan;1997-10-23;Heideflügel 69;Dresden;01067;Sachsen;NULL;672
+1000;Mäder;Wieland;2017-7-19;Pesterwitzer Schulweg 25;Dresden;01097;Sachsen;771;NULL
