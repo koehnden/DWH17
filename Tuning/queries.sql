@@ -1,19 +1,3 @@
-WITH familyTree (id) AS
-(
--- first generation
-    SELECT e.id
-    FROM einwohner e
-    WHERE vaterid IS NULL
-    UNION ALL
--- Recursive member definition
-    SELECT e.id
-    FROM familyTree t
-    WHERE e.id = t.vaterid
-)
--- Statement that executes the CTE
-SELECT id FROM familyTree;
-
-
 ----------------------------------------------------- Aufgabe 1 (ergebniss = 36 beim testdatensatz)
 WITH nicht_berliner AS
 (
@@ -153,3 +137,21 @@ WHERE nodes = maxl;
 |   3 |    VIEW                                    |           |  3282 |  6416K|     6  (17)| 00:00:01 |
 |*  4 |     CONNECT BY NO FILTERING WITH START-WITH|           |       |       |            |          |
 |   5 |      TABLE ACCESS FULL                     | EINWOHNER |  1001 |  8008 |     5   (0)| 00:00:01 |'
+
+-- TODO: rewrite as recursive WITH (not oracle specific and maybe less confusing) and optimize
+'-- does not work yet
+WITH familyTree (id) AS
+(
+-- first generation
+    SELECT e.id
+    FROM einwohner e
+    WHERE vaterid IS NULL AND mutterid IS NULL
+    UNION ALL
+-- Recursive member definition
+    SELECT e.id
+    FROM familyTree t
+    WHERE e.id = t.vaterid
+)
+-- Statement that executes the CTE
+SELECT id FROM familyTree;
+'
