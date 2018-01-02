@@ -1,3 +1,18 @@
+WITH familyTree (id) AS
+(
+-- first generation
+    SELECT e.id
+    FROM einwohner e
+    WHERE vaterid IS NULL
+    UNION ALL
+-- Recursive member definition
+    SELECT e.id
+    FROM familyTree t
+    WHERE e.id = t.vaterid
+)
+-- Statement that executes the CTE
+SELECT id FROM familyTree;
+
 
 ----------------------------------------------------- Aufgabe 1 (ergebniss = 36 beim testdatensatz)
 WITH nicht_berliner AS
@@ -112,3 +127,29 @@ WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 
 -- function-based index has no effect and is also expensive to create (cost 7)
 '
+
+------------------------------------------- Aufgabe 4
+
+-- horrible old oracle specific syntax (ergebniss = /74/251/494/771/1000)
+-- TODO: rewrite as recursive WITH (not oracle specific and maybe less confusing)
+SELECT path
+FROM (
+    SELECT id, path, LENGTH(path)-LENGTH(REPLACE(path,'/','')) nodes,
+    max(LENGTH(path)-LENGTH(REPLACE(path,'/',''))) OVER () maxl
+    FROM (
+        SELECT id, SYS_CONNECT_BY_PATH( id, '/' ) path
+        FROM einwohner
+        START WITH vaterid IS NULL AND mutterid IS NULL
+        CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
+    )
+)
+WHERE nodes = maxl;
+' --------------------------------------------------------------------------------------------------------
+| Id  | Operation                                  | Name      | Rows  | Bytes | Cost (%CPU)| Time     |
+--------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                           |           |  3282 |  6499K|     6  (17)| 00:00:01 |
+|*  1 |  VIEW                                      |           |  3282 |  6499K|     6  (17)| 00:00:01 |
+|   2 |   WINDOW BUFFER                            |           |  3282 |  6416K|     6  (17)| 00:00:01 |
+|   3 |    VIEW                                    |           |  3282 |  6416K|     6  (17)| 00:00:01 |
+|*  4 |     CONNECT BY NO FILTERING WITH START-WITH|           |       |       |            |          |
+|   5 |      TABLE ACCESS FULL                     | EINWOHNER |  1001 |  8008 |     5   (0)| 00:00:01 |'
