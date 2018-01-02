@@ -1,0 +1,5 @@
+EXPLAIN PLAN for
+-- SELECT...
+
+-- to show performance
+SELECT PLAN_TABLE_OUTPUT FROM TABLE(DBMS_XPLAN.DISPLAY());
