@@ -1,14 +1,14 @@
 ----------------------------------------------------- Aufgabe 1 (ergebniss = 36 beim testdatensatz)
 WITH nicht_berliner AS
 (
-    SELECT vaterid, mutterid
+    SELECT vaterid, mutterid /*+ index(bit_map_vater_mutter) */
     FROM einwohner
     WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL) AND
            wohnort != 'Berlin'
 ),
  berliner AS
 (
-    SELECT id, vaterid, mutterid
+    SELECT id, vaterid, mutterid /*+ index(bit_map_vater_mutter) */
     FROM einwohner
     WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL) AND
            wohnort = 'Berlin'
