@@ -1,10 +1,9 @@
 -- primary key (evtl. unötig )
-ALTER TABLE einwohner
-ADD CONSTRAINT pk_einwohner PRIMARY KEY (id);
+ALTER TABLE einwohner ADD CONSTRAINT pk_einwohner PRIMARY KEY (id);
 
--- Bitmap indexe (waren für Query 1 und 2 besser als das B-Baum equivalent)
+-- Bitmap indexe
 CREATE BITMAP INDEX bitmap_vater_mutter ON einwohner (vaterid, mutterid, 1);
--- CREATE BITMAP INDEX idx_bundesland ON einwohner (bundesland); -- mit Materialized View ersetzt
+CREATE BITMAP INDEX idx_wohnort ON einwohner (bundesland); -- mit Materialized View ersetzt
 
 -- function based index (evtl zu teuer zu bauen)
 CREATE INDEX idx_month ON einwohner (extract(month from geburtsdatum));
