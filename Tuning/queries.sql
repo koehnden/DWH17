@@ -12,7 +12,7 @@ WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL);
 CREATE INDEX idx_month ON einwohner (extract(month from geburtsdatum));
 
 
------------------------------------------------------ Aufgabe 1 (ergebniss = 36 beim testdatensatz)
+----------------------------------------------------- Aufgabe 1 (ergebniss = 0 beim testdatensatz)
 --View: Aufgabe4_1
 WITH nicht_berliner AS
 (
