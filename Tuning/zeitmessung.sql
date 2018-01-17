@@ -28,18 +28,17 @@ DECLARE
     FROM einwohner
     WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
     
-    CURSOR query4 is SELECT path
-    FROM (
-        SELECT id, path, LENGTH(path)-LENGTH(REPLACE(path,'/','')) nodes,
-        max(LENGTH(path)-LENGTH(REPLACE(path,'/',''))) OVER () maxl
-        FROM (
-            SELECT id, SYS_CONNECT_BY_PATH( id, '/' ) path
-            FROM einwohner
-            START WITH vaterid IS NULL AND mutterid IS NULL
-            CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
-        )
-    )
-    WHERE nodes = maxl;
+    CURSOR query4 is with rec_path as (SELECT id, 
+                  SYS_CONNECT_BY_PATH( id, '/' ) path,
+                  LEVEL recLevel
+                  FROM einwohner START WITH vaterid IS NULL AND mutterid IS NULL
+                  CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id),
+maxLevel      as (select max(recLevel) maxRecLevel 
+                  from rec_path)
+SELECT        r.path, 
+              r.recLevel LEN 
+              from rec_path r, maxLevel ml
+              where r.recLevel=ml.maxRecLevel;
     
     result1 query1%ROWTYPE;
     result2 query2%ROWTYPE;
