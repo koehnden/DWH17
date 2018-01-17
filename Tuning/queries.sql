@@ -5,6 +5,7 @@ CREATE BITMAP INDEX idx_wohnort ON einwohner (wohnort);
 
 
 ----------------------------------------------------- Aufgabe 1 (ergebniss = 36 beim testdatensatz)
+--View: Aufgabe4_1
 WITH nicht_berliner AS
 (
     SELECT vaterid, mutterid /*+ index(bit_map_vater_mutter) */
@@ -58,7 +59,9 @@ PLAN_TABLE_OUTPUT
 --------------------------------------------------------------------------------------------------------
 '
 
----------------------------------------------------------- Aufgabe 2 (ergebniss = 160)
+---------------------------------------------------------- Aufgabe 2 (ergebniss = 1649 @10K DS)
+--View: Aufgabe4_2
+
 SELECT COUNT(*)
 FROM einwohner
 WHERE vaterid IS NULL AND
@@ -95,7 +98,8 @@ WHERE vaterid IS NULL AND
 ------------------------------------------------------------------------------------
 '
 
------------------------------------------------- Aufgabe 3 (ergebniss = 12)
+------------------------------------------------ Aufgabe 3 (ergebniss = 86)
+--View: Aufgabe4_3
 SELECT COUNT(id)
 FROM einwohner
 WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
@@ -119,7 +123,7 @@ WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 '
 
 ------------------------------------------- Aufgabe 4 (ergebniss = /74/251/494/771/1000)
-
+--View: Aufgabe4_4
 
 with rec_path as (SELECT id, 
                   SYS_CONNECT_BY_PATH( id, '/' ) path,
