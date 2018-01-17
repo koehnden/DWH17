@@ -1,3 +1,9 @@
+--Erzeugte Indexe für Einwohner------------------------------------------------------------------------
+
+CREATE BITMAP INDEX bit_map_vater_mutter ON einwohner (vaterid, mutterid, 1)
+CREATE BITMAP INDEX idx_wohnort ON einwohner (wohnort);
+
+
 ----------------------------------------------------- Aufgabe 1 (ergebniss = 36 beim testdatensatz)
 WITH nicht_berliner AS
 (
@@ -112,46 +118,41 @@ WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 -- function-based index has no effect and is also expensive to create (cost 7)
 '
 
-------------------------------------------- Aufgabe 4
+------------------------------------------- Aufgabe 4 (ergebniss = /74/251/494/771/1000)
 
--- horrible old oracle specific syntax (ergebniss = /74/251/494/771/1000)
--- TODO: rewrite as recursive WITH (not oracle specific and maybe less confusing)
-SELECT path
-FROM (
-    SELECT id, path, LENGTH(path)-LENGTH(REPLACE(path,'/','')) nodes,
-    max(LENGTH(path)-LENGTH(REPLACE(path,'/',''))) OVER () maxl
-    FROM (
-        SELECT id, SYS_CONNECT_BY_PATH( id, '/' ) path
-        FROM einwohner
-        START WITH vaterid IS NULL AND mutterid IS NULL
-        CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
-    )
-)
-WHERE nodes = maxl;
-' --------------------------------------------------------------------------------------------------------
-| Id  | Operation                                  | Name      | Rows  | Bytes | Cost (%CPU)| Time     |
---------------------------------------------------------------------------------------------------------
-|   0 | SELECT STATEMENT                           |           |  3282 |  6499K|     6  (17)| 00:00:01 |
-|*  1 |  VIEW                                      |           |  3282 |  6499K|     6  (17)| 00:00:01 |
-|   2 |   WINDOW BUFFER                            |           |  3282 |  6416K|     6  (17)| 00:00:01 |
-|   3 |    VIEW                                    |           |  3282 |  6416K|     6  (17)| 00:00:01 |
-|*  4 |     CONNECT BY NO FILTERING WITH START-WITH|           |       |       |            |          |
-|   5 |      TABLE ACCESS FULL                     | EINWOHNER |  1001 |  8008 |     5   (0)| 00:00:01 |'
 
--- TODO: rewrite as recursive WITH (not oracle specific and maybe less confusing) and optimize
-'-- does not work yet
-WITH familyTree (id) AS
-(
--- first generation
-    SELECT e.id
-    FROM einwohner e
-    WHERE vaterid IS NULL AND mutterid IS NULL
-    UNION ALL
--- Recursive member definition
-    SELECT e.id
-    FROM familyTree t
-    WHERE e.id = t.vaterid
-)
--- Statement that executes the CTE
-SELECT id FROM familyTree;
-'
+with rec_path as (SELECT id, 
+                  SYS_CONNECT_BY_PATH( id, '/' ) path,
+                  LEVEL recLevel
+                  FROM einwohner START WITH vaterid IS NULL AND mutterid IS NULL
+                  CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id),
+maxLevel      as (select max(recLevel) maxRecLevel 
+                  from rec_path)
+SELECT        r.path, 
+              r.recLevel LEN 
+              from rec_path r, maxLevel ml
+              where r.recLevel=ml.maxRecLevel
+  
+  
+-----------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                                 | Name                      | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                          |                           |   280 |   554K|   121   (3)| 00:00:01 |
+|   1 |  TEMP TABLE TRANSFORMATION                |                           |       |       |            |          |
+|   2 |   LOAD AS SELECT                          | SYS_TEMP_0FD9D6C40_19C23E |       |       |            |          |
+|*  3 |    CONNECT BY NO FILTERING WITH START-WITH|                           |       |       |            |          |
+|   4 |     TABLE ACCESS FULL                     | EINWOHNER                 | 10000 | 80000 |    34   (0)| 00:00:01 |
+|   5 |   NESTED LOOPS                            |                           |   280 |   554K|    85   (2)| 00:00:01 |
+|   6 |    VIEW                                   |                           |     1 |    13 |    42   (0)| 00:00:01 |
+|   7 |     SORT AGGREGATE                        |                           |     1 |    13 |            |          |
+|   8 |      VIEW                                 |                           | 27958 |   354K|    42   (0)| 00:00:01 |
+|   9 |       TABLE ACCESS FULL                   | SYS_TEMP_0FD9D6C40_19C23E | 27958 |  1064K|    42   (0)| 00:00:01 |
+|* 10 |    VIEW                                   |                           |   280 |   550K|    42   (0)| 00:00:01 |
+|  11 |     TABLE ACCESS FULL                     | SYS_TEMP_0FD9D6C40_19C23E | 27958 |  1064K|    42   (0)| 00:00:01 |
+-----------------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   3 - filter(("VATERID"=PRIOR "ID" OR "MUTTERID"=PRIOR "ID") AND "VATERID" IS NULL AND "MUTTERID" IS NULL)
+  10 - filter("R"."RECLEVEL"="ML"."MAXRECLEVEL")
