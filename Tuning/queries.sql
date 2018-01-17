@@ -91,7 +91,35 @@ WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 
 ------------------------------------------- Aufgabe 4 (ergebniss = /74/251/494/771/1000)
 --View: Aufgabe4_4
+SELECT path
+FROM (
+    SELECT id, path, LENGTH(path)-LENGTH(REPLACE(path,'/','')) nodes,
+    max(LENGTH(path)-LENGTH(REPLACE(path,'/',''))) OVER () maxl
+    FROM (
+        SELECT id, SYS_CONNECT_BY_PATH( id, '/' ) path
+        FROM einwohner
+        START WITH vaterid IS NULL AND mutterid IS NULL
+        CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
+    )
+)
+WHERE nodes = maxl
 
+'PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3840475631
+
+--------------------------------------------------------------------------------------------------------
+| Id  | Operation                                  | Name      | Rows  | Bytes | Cost (%CPU)| Time     |
+--------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                           |           | 27958 |    54M|    36   (6)| 00:00:01 |
+|*  1 |  VIEW                                      |           | 27958 |    54M|    36   (6)| 00:00:01 |
+|   2 |   WINDOW BUFFER                            |           | 27958 |    53M|    36   (6)| 00:00:01 |
+|   3 |    VIEW                                    |           | 27958 |    53M|    36   (6)| 00:00:01 |
+|*  4 |     CONNECT BY NO FILTERING WITH START-WITH|           |       |       |            |          |
+|   5 |      TABLE ACCESS FULL                     | EINWOHNER | 10000 | 80000 |    34   (0)| 00:00:01 |
+'
+
+'
 with rec_path as (SELECT id,
                   SYS_CONNECT_BY_PATH( id, '/' ) path,
                   LEVEL recLevel
@@ -105,7 +133,7 @@ SELECT        r.path,
               where r.recLevel=ml.maxRecLevel
 
 
-'-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 | Id  | Operation                                 | Name                      | Rows  | Bytes | Cost (%CPU)| Time     |
 -----------------------------------------------------------------------------------------------------------------------
 |   0 | SELECT STATEMENT                          |                           |   280 |   554K|   121   (3)| 00:00:01 |
