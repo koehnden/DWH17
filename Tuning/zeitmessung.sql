@@ -14,7 +14,7 @@ DECLARE
         FROM einwohner
         WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL) AND
                wohnort = 'Berlin')
-    SELECT COUNT(b.id)
+    SELECT COUNT(DISTINCT b.id) AS CNT
     FROM nicht_berliner n, berliner b
     WHERE (b.vaterid = n.vaterid OR b.mutterid = n.mutterid);
 
@@ -28,17 +28,19 @@ DECLARE
     FROM einwohner
     WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 
-    CURSOR query4 is with rec_path as (SELECT id,
-                  SYS_CONNECT_BY_PATH( id, '/' ) path,
-                  LEVEL recLevel
-                  FROM einwohner START WITH vaterid IS NULL AND mutterid IS NULL
-                  CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id),
-maxLevel      as (select max(recLevel) maxRecLevel
-                  from rec_path)
-SELECT        r.path,
-              r.recLevel LEN
-              from rec_path r, maxLevel ml
-              where r.recLevel=ml.maxRecLevel;
+    CURSOR query4 is 
+	SELECT path
+	FROM (
+		SELECT id, path, LENGTH(path)-LENGTH(REPLACE(path,'/','')) nodes,
+		max(LENGTH(path)-LENGTH(REPLACE(path,'/',''))) OVER () maxl
+		FROM (
+			SELECT id, SYS_CONNECT_BY_PATH( id, '/' ) path
+			FROM einwohner
+			START WITH vaterid IS NULL AND mutterid IS NULL
+			CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
+		)
+	)
+	WHERE nodes = maxl;
 
     result1 query1%ROWTYPE;
     result2 query2%ROWTYPE;

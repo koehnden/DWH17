@@ -12,7 +12,7 @@ WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL);
 CREATE INDEX idx_month ON einwohner (extract(month from geburtsdatum));
 
 
------------------------------------------------------ Aufgabe 1 (ergebniss = 0 beim testdatensatz)
+----------------------------------------------------- Aufgabe 1 (ergebniss = 0 beim testdatensatz mit 10000)
 --View: Aufgabe4_1
 WITH nicht_berliner AS
 (
@@ -28,23 +28,24 @@ WITH nicht_berliner AS
     WHERE (vaterid IS NOT NULL OR mutterid IS NOT NULL) AND
           bundesland = 'Berlin'
 )
-SELECT COUNT(b.id)
+SELECT COUNT(DISTINCT b.id) AS CNT
 FROM nicht_berliner n, berliner b
 WHERE (b.vaterid = n.vaterid OR b.mutterid = n.mutterid);
 
 -- Mit Bitmap vater_mutter und Bitmap wohnort
-'PLAN_TABLE_OUTPUT
+'PLAN_TABLE_OUTPUT                                                                                                                                                                                                                                                                                           
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Plan hash value: 1313664913
-
---------------------------------------------------------------------------------------------------------
-| Id  | Operation                      | Name                  | Rows  | Bytes | Cost (%CPU)| Time     |
---------------------------------------------------------------------------------------------------------
-|   0 | SELECT STATEMENT               |                       |     1 |    22 |     0   (0)|          |
-|   1 |  SORT AGGREGATE                |                       |     1 |    22 |            |          |
-|*  2 |   FILTER                       |                       |       |       |            |          |
-|*  3 |    MAT_VIEW REWRITE ACCESS FULL| VATER_MUTTER_NOT_NULL |     1 |    22 |     7   (0)| 00:00:01 |
---------------------------------------------------------------------------------------------------------
+Plan hash value: 291844487
+ 
+----------------------------------------------------------------------------------------------------------
+| Id  | Operation                        | Name                  | Rows  | Bytes | Cost (%CPU)| Time     |
+----------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                 |                       |     1 |    13 |     5 (100)| 00:00:01 |
+|   1 |  SORT AGGREGATE                  |                       |     1 |    13 |            |          |
+|   2 |   VIEW                           | VM_NWVW_1             |     1 |    13 |     5 (100)| 00:00:01 |
+|   3 |    HASH GROUP BY                 |                       |     1 |    24 |            |          |
+|*  4 |     FILTER                       |                       |       |       |            |          |
+|*  5 |      MAT_VIEW REWRITE ACCESS FULL| VATER_MUTTER_NOT_NULL |     1 |    24 |     7   (0)| 00:00:01 |
 '
 
 ---------------------------------------------------------- Aufgabe 2 (ergebniss = 1649 @10K DS)
@@ -89,7 +90,7 @@ WHERE regexp_replace(adresse, '[^0-9]', '') = 23;
 --------------------------------------------------------------------------------
 '
 
-------------------------------------------- Aufgabe 4 (ergebniss = /74/251/494/771/1000)
+------------------------------------------- Aufgabe 4 (ergebniss = /1734/3891/5375/7115/9456)
 --View: Aufgabe4_4
 SELECT path
 FROM (
@@ -102,7 +103,7 @@ FROM (
         CONNECT BY vaterid = PRIOR id OR mutterid = PRIOR id
     )
 )
-WHERE nodes = maxl
+WHERE nodes = maxl;
 
 'PLAN_TABLE_OUTPUT
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
