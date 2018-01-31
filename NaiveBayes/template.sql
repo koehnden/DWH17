@@ -44,6 +44,19 @@ RETURN NUMBER
 AS 
     prediction NUMBER := 0;
 BEGIN           
+	SELECT calc.label into prediction
+	FROM (SELECT 
+			label, 
+			sex,
+			pclass,
+			(sum(count(*)) over (PARTITION BY pclass, label) / sum(count(*)) over (PARTITION BY label))
+			* (sum(count(*)) over (PARTITION BY sex, label) / sum(count(*)) over (PARTITION BY label)) 
+			* (sum(count(*)) over  (PARTITION by (label)) /  sum(count(*)) over ()) as per
+		FROM CRUISE_TRAIN
+		GROUP BY label, sex, pclass
+		ORDER BY per desc) calc
+	WHERE calc.sex = m_sex and calc.pclass = m_class and rownum = 1; 
+	
     DBMS_OUTPUT.PUT_LINE('prediction = ' || prediction);    
     return prediction;
 END;
