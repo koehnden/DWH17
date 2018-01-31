@@ -28,10 +28,32 @@ CREATE OR REPLACE FUNCTION eval_naive_bayes_sex
 RETURN NUMBER 
 AS 
   accuracy NUMBER := 0;
-BEGIN         
+  TP NUMBER := 0;
+  FP NUMBER := 0;
+  TN NUMBER := 0;
+  FN NUMBER := 0;
+  res NUMBER := 0;
+BEGIN
+	FOR r in (SELECT sex, label
+			  FROM CRUISE_TRAIN)
+	LOOP
+		SELECT predict_naive_bayes_sex(r.sex) into res
+		FROM DUAL;
+		IF res = 1 AND r.label = 1 THEN
+			TP := TP + 1;
+		ELSIF res = 1 AND r.label = 0 THEN
+			FP := FP + 1;
+		ELSIF res = 0 AND r.label = 0 THEN
+			TN := TN + 1;
+		ELSIF res = 0 AND r.label = 1 THEN
+			FN := FN + 1;
+		END IF;
+	END LOOP;
+	accuracy := (TP + TN)/(TP + TN + FP + FN);
     DBMS_OUTPUT.PUT_LINE('accuracy = ' || accuracy);    
     RETURN accuracy;
 END;
+
 
 
 -- Predicts outcome of the naive bayes classifier 
@@ -67,7 +89,28 @@ CREATE OR REPLACE FUNCTION eval_naive_bayes_sex_class
 RETURN NUMBER 
 AS 
   accuracy NUMBER := 0;
-BEGIN         
+  TP NUMBER := 0;
+  FP NUMBER := 0;
+  TN NUMBER := 0;
+  FN NUMBER := 0;
+  res NUMBER := 0;
+BEGIN
+	FOR r in (SELECT sex, label, pclass
+			  FROM CRUISE_TRAIN)
+	LOOP
+		SELECT predict_naive_bayes_sex_class(r.sex, r.pclass) into res
+		FROM DUAL;
+		IF res = 1 AND r.label = 1 THEN
+			TP := TP + 1;
+		ELSIF res = 1 AND r.label = 0 THEN
+			FP := FP + 1;
+		ELSIF res = 0 AND r.label = 0 THEN
+			TN := TN + 1;
+		ELSIF res = 0 AND r.label = 1 THEN
+			FN := FN + 1;
+		END IF;
+	END LOOP;
+	accuracy := (TP + TN)/(TP + TN + FP + FN);
     DBMS_OUTPUT.PUT_LINE('accuracy = ' || accuracy);    
     RETURN accuracy;
 END;
