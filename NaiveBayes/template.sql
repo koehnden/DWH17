@@ -1,5 +1,11 @@
 -- Predicts outcome of the naive bayes classifier 
 -- for a concrete instance of sex
+
+----------- RESULT ----------------
+--PREDICT_NAIVE_BAYES_SEX('FEMALE')
+-----------------------------------
+--                                1
+
 CREATE OR REPLACE FUNCTION predict_naive_bayes_sex(
     m_sex IN cruise_train.sex%TYPE
 )
@@ -24,6 +30,12 @@ END;
 
 
 -- Computes the overall accuracy
+
+----------- RESULT ----------------
+' EVAL_NAIVE_BAYES_SEX
+--------------------
+,783479349 '
+
 CREATE OR REPLACE FUNCTION eval_naive_bayes_sex
 RETURN NUMBER 
 AS 
@@ -58,6 +70,12 @@ END;
 
 -- Predicts outcome of the naive bayes classifier 
 -- for a concrete instance of sex and ticket class
+
+----------- RESULT ----------------
+--PREDICT_NAIVE_BAYES_SEX_CLASS('FEMALE',1)
+-------------------------------------------
+--                                        1
+
 CREATE OR REPLACE FUNCTION predict_naive_bayes_sex_class(
     m_sex IN cruise_train.sex%TYPE,
     m_class IN cruise_train.pclass%TYPE
@@ -85,6 +103,12 @@ END;
 
 
 -- Computes the overall accuracy
+
+----------- RESULT ----------------
+'EVAL_NAIVE_BAYES_SEX_CLASS
+--------------------------
+,783479349 '
+
 CREATE OR REPLACE FUNCTION eval_naive_bayes_sex_class
 RETURN NUMBER 
 AS 
