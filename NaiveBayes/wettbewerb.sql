@@ -1,3 +1,8 @@
+-- Predicts outcome of the naive bayes classifier 
+-- for a concrete instance of sex, ticket class
+-- fare and age. Age and fare of all considerable guests
+-- has to be lower than the age and fare of the guest
+-- to be predicted
 create or replace FUNCTION wettbewerb(
     m_sex IN cruise_train.sex%TYPE,
     m_class IN cruise_train.pclass%TYPE,
@@ -36,7 +41,7 @@ BEGIN
     return prediction;
 END;
 
-
+-- Computes the overall accuracy
 create or replace FUNCTION eval_wettbewerb
 RETURN NUMBER 
 AS 
@@ -67,7 +72,7 @@ BEGIN
     RETURN accuracy;
 END;
 
-
+-- Creates a view containing the prediction for all test data
 CREATE OR REPLACE VIEW wettbewerb_calc AS
 SELECT wettbewerb(sex, pclass, age, fare) as label
 FROM CRUISE_TEST;
